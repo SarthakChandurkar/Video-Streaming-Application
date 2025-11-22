@@ -15,6 +15,7 @@
 #include <sys/time.h>
 #include<math.h>
 #include<fstream>
+#include <cstdio>
 
 
 #define VIDEO_CHUNK_SIZE 32768
@@ -25,6 +26,7 @@ enum MessageType { REQUEST = 1, RESPONSE, VIDEO_DATA, ACK };
 struct Message {
     MessageType type;
     int length;
+    int seq;
     char content[MSG_LEN];
 };
 
@@ -80,21 +82,32 @@ void streamUDP(const std::string& ip, int port, const std::string& res) {
     int up = ntohs(cli.sin_port);
 
     // send REQUEST
-    Message req{REQUEST,0,{0}};
+    Message req; req.type = REQUEST; req.length = 0; req.seq = 0; memset(req.content,0,sizeof(req.content));
     req.length = snprintf(req.content, MSG_LEN, "%s UDP %d", res.c_str(), up);
     send(ts, &req, sizeof(req), 0);
     M.startTime = std::chrono::high_resolution_clock::now();
     
-    // recv RESPONSE
+    // recv RESPONSE (contains file metadata)
     Message rsp;
     if (recv(ts, &rsp, sizeof(rsp), 0) <= 0) error("recv RESP");
     std::cout << "Server: " << rsp.content << "\nUDP streaming...\n";
+
+    // parse TotalChunks, FileSize and Filename from response
+    int totalChunks = 0;
+    long long fileSize = 0;
+    char filename[256] = {0};
+    sscanf(rsp.content, "%*s %*s %*s %*s %*s TotalChunks %d FileSize %lld Filename %255s",
+        &totalChunks, &fileSize, filename);
     close(ts);
 
     // timeout
     timeval tv{100,0};
     setsockopt(us, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
 
+
+    // prepare storage for chunks
+    std::vector<std::vector<char>> chunks(totalChunks);
+    std::vector<bool> got(totalChunks, false);
 
     // recv loop
     sockaddr_in from{};
@@ -122,17 +135,41 @@ void streamUDP(const std::string& ip, int port, const std::string& res) {
         // get data
         std::vector<char> buf(hdr.length);
         ssize_t d = recvfrom(us, buf.data(), hdr.length, 0, (sockaddr*)&from, &fl);
-        if (d > 0) {
+        if (d > 0 && hdr.seq >=0 && hdr.seq < totalChunks) {
             std::lock_guard<std::mutex> lk(Mtx);
             std::cout<<"Size: "<<d<<std::endl;
             M.totalBytes += d;
             M.received++;
+            chunks[hdr.seq].assign(buf.begin(), buf.begin()+d);
+            got[hdr.seq] = true;
             std::cout<<"Recieved "<<M.received<<" Chunks till now."<<std::endl;
         }
     }
     
 
     close(us);
+    // write assembled file
+    std::string outName = std::string("./videos/received_") + filename + "_UDP.mp4";
+    FILE* out = fopen(outName.c_str(), "wb");
+    if (out) {
+        for (int i = 0; i < totalChunks; ++i) {
+            if (got[i]) {
+                fwrite(chunks[i].data(), 1, chunks[i].size(), out);
+            } else {
+                // write zeros for missing chunk to preserve file size
+                int toWrite = VIDEO_CHUNK_SIZE;
+                if (i == totalChunks - 1) {
+                    long long remaining = fileSize - (long long)i * VIDEO_CHUNK_SIZE;
+                    if (remaining < toWrite) toWrite = (int)remaining;
+                }
+                std::vector<char> z(toWrite, 0);
+                fwrite(z.data(), 1, toWrite, out);
+            }
+        }
+        fclose(out);
+        std::cout << "Reassembled file written to " << outName << "\n";
+    }
+
     showMetrics(res,"UDP");
 }
 
@@ -143,7 +180,7 @@ void streamTCP(const std::string& ip, int port, const std::string& res) {
     inet_pton(AF_INET, ip.c_str(), &srv.sin_addr);
     if (connect(s,(sockaddr*)&srv,sizeof(srv))<0) error("connect");
 
-    Message req{REQUEST,0,{0}};
+    Message req; req.type = REQUEST; req.length = 0; req.seq = 0; memset(req.content,0,sizeof(req.content));
     req.length = snprintf(req.content, MSG_LEN, "%s TCP 0", res.c_str());
     send(s, &req, sizeof(req), 0);
     M.startTime = std::chrono::high_resolution_clock::now();
@@ -152,8 +189,19 @@ void streamTCP(const std::string& ip, int port, const std::string& res) {
     if (recv(s, &rsp, sizeof(rsp), 0)<=0) error("recv RESP");
     std::cout<<"Server: "<<rsp.content<<"\nTCP streaming...\n";
 
+    // parse totalChunks, fileSize and filename
+    int totalChunks = 0;
+    long long fileSize = 0;
+    char filename[256] = {0};
+    sscanf(rsp.content, "%*s %*s %*s %*s %*s TotalChunks %d FileSize %lld Filename %255s",
+        &totalChunks, &fileSize, filename);
+
     timeval tv{100,0};
     setsockopt(s, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
+
+    // prepare storage
+    std::vector<std::vector<char>> chunks(totalChunks);
+    std::vector<bool> got(totalChunks, false);
 
     while (1) {
         Message hdr;
@@ -170,17 +218,41 @@ void streamTCP(const std::string& ip, int port, const std::string& res) {
         std::vector<char> buf(hdr.length);
         ssize_t n = recv(s, buf.data(), hdr.length, 0);
         std::cout<<"Size: "<<n<<std::endl;
-        if (n>0) {
+        if (n>0 && hdr.seq >=0 && hdr.seq < totalChunks) {
             std::lock_guard<std::mutex> lk(Mtx);
             M.totalBytes += n;
             M.received++;
+            chunks[hdr.seq].assign(buf.begin(), buf.begin()+n);
+            got[hdr.seq] = true;
             std::cout<<"Recieved "<<M.received<<" Chunks till now."<<std::endl;
         }
-        Message ack{ACK,0,{0}};
+        Message ack; ack.type = ACK; ack.length = 0; ack.seq = 0; memset(ack.content,0,sizeof(ack.content));
         send(s, &ack, sizeof(ack), 0);
     }
 
     close(s);
+
+    // write assembled file
+    std::string outName = std::string("./videos/received_") + filename + "_TCP.mp4";
+    FILE* out = fopen(outName.c_str(), "wb");
+    if (out) {
+        for (int i = 0; i < totalChunks; ++i) {
+            if (got[i]) {
+                fwrite(chunks[i].data(), 1, chunks[i].size(), out);
+            } else {
+                int toWrite = VIDEO_CHUNK_SIZE;
+                if (i == totalChunks - 1) {
+                    long long remaining = fileSize - (long long)i * VIDEO_CHUNK_SIZE;
+                    if (remaining < toWrite) toWrite = (int)remaining;
+                }
+                std::vector<char> z(toWrite, 0);
+                fwrite(z.data(), 1, toWrite, out);
+            }
+        }
+        fclose(out);
+        std::cout << "Reassembled file written to " << outName << "\n";
+    }
+
     showMetrics(res,"TCP");
 }
 

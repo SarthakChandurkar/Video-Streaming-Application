@@ -13,6 +13,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <map>
+#include <sys/stat.h>
+#include <cstdio>
 #include <atomic>
 #include <signal.h>
 
@@ -41,6 +43,7 @@ const std::map<std::string, VideoResolution> resolutions = {
 struct Message {
     int type;
     int length;
+    int seq;                 // sequence number for the chunk (new)
     char content[MSG_LEN];
 };
 
@@ -56,6 +59,8 @@ struct ClientRequest {
     int chunkIndex = 0;
     int totalChunks = 0;
     int delayMs = 100;
+    std::string filename;
+    long long fileSize = 0;
 };
 
 
@@ -76,19 +81,31 @@ void error(const char *msg) {
 
 bool streamPartialTCP(const ClientRequest& req, int& chunkIndex, int maxTimeMs) {
     const auto& res = resolutions.at(req.resolution);
-    int cps = (res.bitrate * 1000) / (VIDEO_CHUNK_SIZE * 8);
-    cps = std::max(cps, 1);
-    int totalChunks = cps * SIMULATION_DURATION;
+    int totalChunks = req.totalChunks;
     int delayMs = req.delayMs;
 
-    // buffer for video data
-    static thread_local char videoBuf[VIDEO_CHUNK_SIZE];
-    memset(videoBuf, 'V', sizeof(videoBuf));
+    std::string path = std::string("./videos/") + req.filename;
+    FILE* f = fopen(path.c_str(), "rb");
+    if (!f) {
+        perror("fopen");
+        return true;
+    }
+    static thread_local std::vector<char> videoBuf(VIDEO_CHUNK_SIZE);
 
     auto start = std::chrono::high_resolution_clock::now();
     for (; chunkIndex < totalChunks;) {
         // prepare header
-        Message hdr{ VIDEO_DATA, VIDEO_CHUNK_SIZE, {0} };
+        // read chunk from file
+        long long offset = (long long)chunkIndex * VIDEO_CHUNK_SIZE;
+        fseeko(f, offset, SEEK_SET);
+        int toRead = VIDEO_CHUNK_SIZE;
+        if (chunkIndex == totalChunks - 1) {
+            long long remaining = req.fileSize - offset;
+            if (remaining < toRead) toRead = (int)remaining;
+        }
+        size_t r = fread(videoBuf.data(), 1, toRead, f);
+
+        Message hdr; hdr.type = VIDEO_DATA; hdr.length = r; hdr.seq = chunkIndex; memset(hdr.content,0,sizeof(hdr.content));
         snprintf(hdr.content, MSG_LEN, "Chunk %d for %s",
                  chunkIndex, req.resolution.c_str());
 
@@ -98,7 +115,7 @@ bool streamPartialTCP(const ClientRequest& req, int& chunkIndex, int maxTimeMs) 
         }
 
         // **SEND PAYLOAD**
-        if (send(req.socket, videoBuf, VIDEO_CHUNK_SIZE, 0) < 0) {
+        if (send(req.socket, videoBuf.data(), r, 0) < 0) {
             return true;  // socket error → done
         }
 
@@ -108,8 +125,8 @@ bool streamPartialTCP(const ClientRequest& req, int& chunkIndex, int maxTimeMs) 
             return true;  // socket closed or error → done
         }
 
-        // update progress so next RR slice resumes correctly
-        chunkProgress[req.clientId] = chunkIndex + 1;
+    // update progress so next RR slice resumes correctly
+    chunkProgress[req.clientId] = chunkIndex + 1;
 
         std::cout << "[TCP] Sent & ACK chunk "
                   << (chunkIndex + 1)
@@ -126,6 +143,7 @@ bool streamPartialTCP(const ClientRequest& req, int& chunkIndex, int maxTimeMs) 
         }
     }
 
+    fclose(f);
     // all chunks done → close once
     close(req.socket);
     return true;
@@ -137,23 +155,37 @@ bool streamPartialTCP(const ClientRequest& req, int& chunkIndex, int maxTimeMs) 
 void streamVideoTCP(const ClientRequest& req) {
     int sock = req.socket;
     const auto& res = resolutions.at(req.resolution);
-    int cps = (res.bitrate * 1000) / (VIDEO_CHUNK_SIZE * 8);
-    cps = std::max(cps, 1);
-    int totalChunks = cps * SIMULATION_DURATION;
-    int delayMs = 100;
+    int totalChunks = req.totalChunks;
+    int delayMs = req.delayMs;
 
     std::cout << "TCP → client " << req.clientId
               << " [" << req.resolution << " @ " << res.bitrate << " Kbps]: "
               << totalChunks << " chunks, " << delayMs << "ms delay\n";
 
-    char buffer[VIDEO_CHUNK_SIZE];
-    memset(buffer, 'V', sizeof(buffer));
+    // open file
+    std::string path = std::string("./videos/") + req.filename;
+    FILE* f = fopen(path.c_str(), "rb");
+    if (!f) {
+        perror("fopen");
+        close(sock);
+        return;
+    }
 
+    std::vector<char> buffer(VIDEO_CHUNK_SIZE);
     for (int i = 0; i < totalChunks && serverRunning; i++) {
-        Message hdr{VIDEO_DATA, VIDEO_CHUNK_SIZE, {0}};
+        long long offset = (long long)i * VIDEO_CHUNK_SIZE;
+        fseeko(f, offset, SEEK_SET);
+        int toRead = VIDEO_CHUNK_SIZE;
+        if (i == totalChunks - 1) {
+            long long remaining = req.fileSize - offset;
+            if (remaining < toRead) toRead = (int)remaining;
+        }
+        size_t r = fread(buffer.data(), 1, toRead, f);
+
+        Message hdr; hdr.type = VIDEO_DATA; hdr.length = r; hdr.seq = i; memset(hdr.content,0,sizeof(hdr.content));
         snprintf(hdr.content, MSG_LEN, "Chunk %d for %s", i, req.resolution.c_str());
         if (send(sock, &hdr, sizeof(hdr), 0) < 0) break;
-        if (send(sock, buffer, VIDEO_CHUNK_SIZE, 0) < 0) break;
+        if (send(sock, buffer.data(), r, 0) < 0) break;
         std::cout<<"TCP Chunk "<<i+1<<" sent to client "<<req.clientId<<"."<<std::endl;
         // wait for ACK
         Message ack;
@@ -161,6 +193,8 @@ void streamVideoTCP(const ClientRequest& req) {
         std::this_thread::sleep_for(std::chrono::milliseconds(delayMs));
         std::cout<<"Recieved ACK for TCP chunk "<<i+1<<" from client "<<req.clientId<<"."<<std::endl;
     }
+
+    fclose(f);
 
     std::cout << "TCP stream done for client " << req.clientId << "\n";
     close(sock);
@@ -175,13 +209,19 @@ bool streamPartialUDP(const ClientRequest& req, int& currentChunk, int timeMs) {
     }
 
     const auto& res = resolutions.at(req.resolution);
-    int cps = (res.bitrate * 1000) / (VIDEO_CHUNK_SIZE * 8);
-    cps = std::max(cps, 1);
-    int totalChunks = cps * SIMULATION_DURATION;
 
-    char buffer[VIDEO_CHUNK_SIZE];
-    memset(buffer, 'V', sizeof(buffer));
+    int totalChunks = req.totalChunks;
 
+    // open file
+    std::string path = std::string("./videos/") + req.filename;
+    FILE* f = fopen(path.c_str(), "rb");
+    if (!f) {
+        perror("fopen");
+        close(udpSock);
+        return true;
+    }
+
+    std::vector<char> buffer(VIDEO_CHUNK_SIZE);
     auto start = std::chrono::high_resolution_clock::now();
     srand(time(NULL) + req.clientId);
 
@@ -197,12 +237,21 @@ bool streamPartialUDP(const ClientRequest& req, int& currentChunk, int timeMs) {
             continue;
         }
 
-        Message hdr{VIDEO_DATA, VIDEO_CHUNK_SIZE, {0}};
+        long long offset = (long long)currentChunk * VIDEO_CHUNK_SIZE;
+        fseeko(f, offset, SEEK_SET);
+        int toRead = VIDEO_CHUNK_SIZE;
+        if (currentChunk == totalChunks - 1) {
+            long long remaining = req.fileSize - offset;
+            if (remaining < toRead) toRead = (int)remaining;
+        }
+        size_t r = fread(buffer.data(), 1, toRead, f);
+
+        Message hdr; hdr.type = VIDEO_DATA; hdr.length = r; hdr.seq = currentChunk; memset(hdr.content,0,sizeof(hdr.content));
         snprintf(hdr.content, MSG_LEN, "Chunk %d for %s", currentChunk, req.resolution.c_str());
 
         sendto(udpSock, &hdr, sizeof(hdr), 0,
                (sockaddr*)&req.address, sizeof(req.address));
-        sendto(udpSock, buffer, VIDEO_CHUNK_SIZE, 0,
+        sendto(udpSock, buffer.data(), r, 0,
                (sockaddr*)&req.address, sizeof(req.address));
 
         std::cout << "UDP Chunk " << currentChunk + 1 << " sent to client " << req.clientId << "\n";
@@ -213,7 +262,7 @@ bool streamPartialUDP(const ClientRequest& req, int& currentChunk, int timeMs) {
     bool done = (currentChunk >= totalChunks);
 
     if (done) {
-        Message fin{ACK, sizeof(int), {0}};
+        Message fin; fin.type = ACK; fin.length = sizeof(int); fin.seq = 0; memset(fin.content,0,sizeof(fin.content));
         int dropped = udpDroppedCount[req.clientId];
         memcpy(fin.content, &dropped, sizeof(int));
         sendto(udpSock, &fin, sizeof(fin), 0,
@@ -233,17 +282,23 @@ void streamVideoUDP(const ClientRequest& req) {
     if (udpSock < 0) error("UDP socket creation failure");
 
     const auto& res = resolutions.at(req.resolution);
-    int cps = (res.bitrate * 1000) / (VIDEO_CHUNK_SIZE * 8);
-    cps = std::max(cps, 1);
-    int totalChunks = cps * SIMULATION_DURATION;
-    int delayMs = 100;
+    int totalChunks = req.totalChunks;
+    int delayMs = req.delayMs;
 
     std::cout << "UDP → client " << req.clientId
               << " [" << req.resolution << " @ " << res.bitrate << " Kbps]: "
               << totalChunks << " chunks, " << delayMs << "ms delay\n";
 
-    char buffer[VIDEO_CHUNK_SIZE];
-    memset(buffer, 'V', sizeof(buffer));
+    // open file
+    std::string path = std::string("./videos/") + req.filename;
+    FILE* f = fopen(path.c_str(), "rb");
+    if (!f) {
+        perror("fopen");
+        close(udpSock);
+        return;
+    }
+
+    std::vector<char> buffer(VIDEO_CHUNK_SIZE);
     srand(time(NULL) + req.clientId);
     int dropped = 0;
 
@@ -254,21 +309,32 @@ void streamVideoUDP(const ClientRequest& req) {
             std::cout<<"UDP chunk "<<i+1<<" dropped."<<std::endl;
             continue;
         }
-        Message hdr{VIDEO_DATA, VIDEO_CHUNK_SIZE, {0}};
+        long long offset = (long long)i * VIDEO_CHUNK_SIZE;
+        fseeko(f, offset, SEEK_SET);
+        int toRead = VIDEO_CHUNK_SIZE;
+        if (i == totalChunks - 1) {
+            long long remaining = req.fileSize - offset;
+            if (remaining < toRead) toRead = (int)remaining;
+        }
+        size_t r = fread(buffer.data(), 1, toRead, f);
+
+        Message hdr; hdr.type = VIDEO_DATA; hdr.length = r; hdr.seq = i; memset(hdr.content,0,sizeof(hdr.content));
         snprintf(hdr.content, MSG_LEN, "Chunk %d for %s", i, req.resolution.c_str());
         sendto(udpSock, &hdr, sizeof(hdr), 0,
                (sockaddr*)&req.address, sizeof(req.address));
-        sendto(udpSock, buffer, VIDEO_CHUNK_SIZE, 0,
+        sendto(udpSock, buffer.data(), r, 0,
                (sockaddr*)&req.address, sizeof(req.address));
         std::cout<<"UDP Chunk "<<i+1<<" sent to client "<<req.clientId<<"."<<std::endl;
         std::this_thread::sleep_for(std::chrono::milliseconds(delayMs));
     }
 
+    fclose(f);
+
     // final ACK with drop count
-    Message fin{ACK, sizeof(int), {0}};
+    Message fin; fin.type = ACK; fin.length = sizeof(int); fin.seq = 0; memset(fin.content,0,sizeof(fin.content));
     memcpy(fin.content, &dropped, sizeof(int));
     sendto(udpSock, &fin, sizeof(fin), 0,
-           (sockaddr*)&req.address, sizeof(req.address));
+        (sockaddr*)&req.address, sizeof(req.address));
 
     float rate = (float)dropped / totalChunks * 100;
     std::cout << "UDP done for client " << req.clientId
@@ -337,11 +403,27 @@ void handleTCPConnection(int clientSock, struct sockaddr_in clientAddr) {
     }
 
     // send RESPONSE
-    Message resp{RESPONSE, 0, {0}};
+    // determine file path and size
+    std::string filename = resolution + ".mp4";
+    std::string filepath = std::string("./videos/") + filename;
+    struct stat st{};
+    long long fileSize = 0;
+    int totalChunks = 0;
+    if (stat(filepath.c_str(), &st) == 0) {
+        fileSize = st.st_size;
+        totalChunks = (fileSize + VIDEO_CHUNK_SIZE - 1) / VIDEO_CHUNK_SIZE;
+    } else {
+        std::cerr << "  ✗ cannot stat file " << filepath << "\n";
+        close(clientSock);
+        return;
+    }
+
+    Message resp{RESPONSE, 0, 0, {0}};
     const auto& R = resolutions.at(resolution);
     resp.length = snprintf(resp.content, MSG_LEN,
-                           "Video %s %dx%d @ %dKbps",
-                           R.name.c_str(), R.width, R.height, R.bitrate);
+                           "Video %s %dx%d @ %dKbps TotalChunks %d FileSize %lld Filename %s",
+                           R.name.c_str(), R.width, R.height, R.bitrate,
+                           totalChunks, fileSize, filename.c_str());
     send(clientSock, &resp, sizeof(resp), 0);
 
     // enqueue
@@ -352,6 +434,9 @@ void handleTCPConnection(int clientSock, struct sockaddr_in clientAddr) {
     cr.resolution = resolution;
     cr.protocol   = protocol;
     cr.requestTime = std::chrono::high_resolution_clock::now();
+    cr.totalChunks = totalChunks;
+    cr.filename = filename;
+    cr.fileSize = fileSize;
 
     {
         std::lock_guard<std::mutex> lg(queueMutex);

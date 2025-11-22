@@ -1,0 +1,2701 @@
+nohup: ignoring input
+Server listening on port 9000 [FCFS]
+Client 1 @127.0.0.1:53384 → wants 480p via TCP
+TCP → client 1 [480p @ 1500 Kbps]: 48 chunks, 100ms delay
+TCP Chunk 1 sent to client 1.
+Recieved ACK for TCP chunk 1 from client 1.
+TCP Chunk 2 sent to client 1.
+Recieved ACK for TCP chunk 2 from client 1.
+TCP Chunk 3 sent to client 1.
+Recieved ACK for TCP chunk 3 from client 1.
+TCP Chunk 4 sent to client 1.
+Recieved ACK for TCP chunk 4 from client 1.
+TCP Chunk 5 sent to client 1.
+Recieved ACK for TCP chunk 5 from client 1.
+TCP Chunk 6 sent to client 1.
+Recieved ACK for TCP chunk 6 from client 1.
+TCP Chunk 7 sent to client 1.
+Recieved ACK for TCP chunk 7 from client 1.
+TCP Chunk 8 sent to client 1.
+Recieved ACK for TCP chunk 8 from client 1.
+TCP Chunk 9 sent to client 1.
+Recieved ACK for TCP chunk 9 from client 1.
+TCP Chunk 10 sent to client 1.
+Recieved ACK for TCP chunk 10 from client 1.
+TCP Chunk 11 sent to client 1.
+Recieved ACK for TCP chunk 11 from client 1.
+TCP Chunk 12 sent to client 1.
+Recieved ACK for TCP chunk 12 from client 1.
+TCP Chunk 13 sent to client 1.
+Recieved ACK for TCP chunk 13 from client 1.
+TCP Chunk 14 sent to client 1.
+Recieved ACK for TCP chunk 14 from client 1.
+TCP Chunk 15 sent to client 1.
+Recieved ACK for TCP chunk 15 from client 1.
+TCP Chunk 16 sent to client 1.
+Recieved ACK for TCP chunk 16 from client 1.
+TCP Chunk 17 sent to client 1.
+Recieved ACK for TCP chunk 17 from client 1.
+TCP Chunk 18 sent to client 1.
+Recieved ACK for TCP chunk 18 from client 1.
+TCP Chunk 19 sent to client 1.
+Recieved ACK for TCP chunk 19 from client 1.
+TCP Chunk 20 sent to client 1.
+Recieved ACK for TCP chunk 20 from client 1.
+TCP Chunk 21 sent to client 1.
+Recieved ACK for TCP chunk 21 from client 1.
+TCP Chunk 22 sent to client 1.
+Recieved ACK for TCP chunk 22 from client 1.
+TCP Chunk 23 sent to client 1.
+Recieved ACK for TCP chunk 23 from client 1.
+TCP Chunk 24 sent to client 1.
+Recieved ACK for TCP chunk 24 from client 1.
+TCP Chunk 25 sent to client 1.
+Recieved ACK for TCP chunk 25 from client 1.
+TCP Chunk 26 sent to client 1.
+Recieved ACK for TCP chunk 26 from client 1.
+TCP Chunk 27 sent to client 1.
+Recieved ACK for TCP chunk 27 from client 1.
+TCP Chunk 28 sent to client 1.
+Recieved ACK for TCP chunk 28 from client 1.
+TCP Chunk 29 sent to client 1.
+Recieved ACK for TCP chunk 29 from client 1.
+TCP Chunk 30 sent to client 1.
+Recieved ACK for TCP chunk 30 from client 1.
+TCP Chunk 31 sent to client 1.
+Recieved ACK for TCP chunk 31 from client 1.
+TCP Chunk 32 sent to client 1.
+Recieved ACK for TCP chunk 32 from client 1.
+TCP Chunk 33 sent to client 1.
+Recieved ACK for TCP chunk 33 from client 1.
+TCP Chunk 34 sent to client 1.
+Recieved ACK for TCP chunk 34 from client 1.
+TCP Chunk 35 sent to client 1.
+Recieved ACK for TCP chunk 35 from client 1.
+TCP Chunk 36 sent to client 1.
+Recieved ACK for TCP chunk 36 from client 1.
+TCP Chunk 37 sent to client 1.
+Recieved ACK for TCP chunk 37 from client 1.
+TCP Chunk 38 sent to client 1.
+Recieved ACK for TCP chunk 38 from client 1.
+TCP Chunk 39 sent to client 1.
+Recieved ACK for TCP chunk 39 from client 1.
+TCP Chunk 40 sent to client 1.
+Recieved ACK for TCP chunk 40 from client 1.
+TCP Chunk 41 sent to client 1.
+Recieved ACK for TCP chunk 41 from client 1.
+TCP Chunk 42 sent to client 1.
+Recieved ACK for TCP chunk 42 from client 1.
+TCP Chunk 43 sent to client 1.
+Recieved ACK for TCP chunk 43 from client 1.
+TCP Chunk 44 sent to client 1.
+Recieved ACK for TCP chunk 44 from client 1.
+TCP Chunk 45 sent to client 1.
+Recieved ACK for TCP chunk 45 from client 1.
+TCP Chunk 46 sent to client 1.
+Recieved ACK for TCP chunk 46 from client 1.
+TCP Chunk 47 sent to client 1.
+Recieved ACK for TCP chunk 47 from client 1.
+TCP Chunk 48 sent to client 1.
+Recieved ACK for TCP chunk 48 from client 1.
+TCP stream done for client 1
+Client 2 @127.0.0.1:58646 → wants 720p via TCP
+TCP → client 2 [720p @ 4000 Kbps]: 301 chunks, 100ms delay
+TCP Chunk 1 sent to client 2.
+Recieved ACK for TCP chunk 1 from client 2.
+TCP Chunk 2 sent to client 2.
+Recieved ACK for TCP chunk 2 from client 2.
+TCP Chunk 3 sent to client 2.
+Recieved ACK for TCP chunk 3 from client 2.
+TCP Chunk 4 sent to client 2.
+Recieved ACK for TCP chunk 4 from client 2.
+TCP Chunk 5 sent to client 2.
+Recieved ACK for TCP chunk 5 from client 2.
+TCP Chunk 6 sent to client 2.
+Recieved ACK for TCP chunk 6 from client 2.
+TCP Chunk 7 sent to client 2.
+Recieved ACK for TCP chunk 7 from client 2.
+TCP Chunk 8 sent to client 2.
+Recieved ACK for TCP chunk 8 from client 2.
+TCP Chunk 9 sent to client 2.
+Recieved ACK for TCP chunk 9 from client 2.
+TCP Chunk 10 sent to client 2.
+Recieved ACK for TCP chunk 10 from client 2.
+TCP Chunk 11 sent to client 2.
+Recieved ACK for TCP chunk 11 from client 2.
+TCP Chunk 12 sent to client 2.
+Recieved ACK for TCP chunk 12 from client 2.
+TCP Chunk 13 sent to client 2.
+Recieved ACK for TCP chunk 13 from client 2.
+TCP Chunk 14 sent to client 2.
+Recieved ACK for TCP chunk 14 from client 2.
+TCP Chunk 15 sent to client 2.
+Recieved ACK for TCP chunk 15 from client 2.
+TCP Chunk 16 sent to client 2.
+Recieved ACK for TCP chunk 16 from client 2.
+TCP Chunk 17 sent to client 2.
+Recieved ACK for TCP chunk 17 from client 2.
+TCP Chunk 18 sent to client 2.
+Recieved ACK for TCP chunk 18 from client 2.
+TCP Chunk 19 sent to client 2.
+Recieved ACK for TCP chunk 19 from client 2.
+TCP Chunk 20 sent to client 2.
+Recieved ACK for TCP chunk 20 from client 2.
+TCP Chunk 21 sent to client 2.
+Recieved ACK for TCP chunk 21 from client 2.
+TCP Chunk 22 sent to client 2.
+Recieved ACK for TCP chunk 22 from client 2.
+TCP Chunk 23 sent to client 2.
+Recieved ACK for TCP chunk 23 from client 2.
+TCP Chunk 24 sent to client 2.
+Recieved ACK for TCP chunk 24 from client 2.
+TCP Chunk 25 sent to client 2.
+Recieved ACK for TCP chunk 25 from client 2.
+TCP Chunk 26 sent to client 2.
+Recieved ACK for TCP chunk 26 from client 2.
+TCP Chunk 27 sent to client 2.
+Recieved ACK for TCP chunk 27 from client 2.
+TCP Chunk 28 sent to client 2.
+Recieved ACK for TCP chunk 28 from client 2.
+TCP Chunk 29 sent to client 2.
+Recieved ACK for TCP chunk 29 from client 2.
+TCP Chunk 30 sent to client 2.
+Recieved ACK for TCP chunk 30 from client 2.
+TCP Chunk 31 sent to client 2.
+Recieved ACK for TCP chunk 31 from client 2.
+TCP Chunk 32 sent to client 2.
+Recieved ACK for TCP chunk 32 from client 2.
+TCP Chunk 33 sent to client 2.
+Recieved ACK for TCP chunk 33 from client 2.
+TCP Chunk 34 sent to client 2.
+Recieved ACK for TCP chunk 34 from client 2.
+TCP Chunk 35 sent to client 2.
+Recieved ACK for TCP chunk 35 from client 2.
+TCP Chunk 36 sent to client 2.
+Recieved ACK for TCP chunk 36 from client 2.
+TCP Chunk 37 sent to client 2.
+Recieved ACK for TCP chunk 37 from client 2.
+TCP Chunk 38 sent to client 2.
+Recieved ACK for TCP chunk 38 from client 2.
+TCP Chunk 39 sent to client 2.
+Recieved ACK for TCP chunk 39 from client 2.
+TCP Chunk 40 sent to client 2.
+Recieved ACK for TCP chunk 40 from client 2.
+TCP Chunk 41 sent to client 2.
+Recieved ACK for TCP chunk 41 from client 2.
+TCP Chunk 42 sent to client 2.
+Recieved ACK for TCP chunk 42 from client 2.
+TCP Chunk 43 sent to client 2.
+Recieved ACK for TCP chunk 43 from client 2.
+TCP Chunk 44 sent to client 2.
+Recieved ACK for TCP chunk 44 from client 2.
+TCP Chunk 45 sent to client 2.
+Recieved ACK for TCP chunk 45 from client 2.
+TCP Chunk 46 sent to client 2.
+Recieved ACK for TCP chunk 46 from client 2.
+TCP Chunk 47 sent to client 2.
+Recieved ACK for TCP chunk 47 from client 2.
+TCP Chunk 48 sent to client 2.
+Recieved ACK for TCP chunk 48 from client 2.
+TCP Chunk 49 sent to client 2.
+Recieved ACK for TCP chunk 49 from client 2.
+TCP Chunk 50 sent to client 2.
+Recieved ACK for TCP chunk 50 from client 2.
+TCP Chunk 51 sent to client 2.
+Recieved ACK for TCP chunk 51 from client 2.
+TCP Chunk 52 sent to client 2.
+Recieved ACK for TCP chunk 52 from client 2.
+TCP Chunk 53 sent to client 2.
+Recieved ACK for TCP chunk 53 from client 2.
+TCP Chunk 54 sent to client 2.
+Recieved ACK for TCP chunk 54 from client 2.
+TCP Chunk 55 sent to client 2.
+Recieved ACK for TCP chunk 55 from client 2.
+TCP Chunk 56 sent to client 2.
+Recieved ACK for TCP chunk 56 from client 2.
+TCP Chunk 57 sent to client 2.
+Recieved ACK for TCP chunk 57 from client 2.
+TCP Chunk 58 sent to client 2.
+Recieved ACK for TCP chunk 58 from client 2.
+TCP Chunk 59 sent to client 2.
+Recieved ACK for TCP chunk 59 from client 2.
+TCP Chunk 60 sent to client 2.
+Recieved ACK for TCP chunk 60 from client 2.
+TCP Chunk 61 sent to client 2.
+Recieved ACK for TCP chunk 61 from client 2.
+TCP Chunk 62 sent to client 2.
+Recieved ACK for TCP chunk 62 from client 2.
+TCP Chunk 63 sent to client 2.
+Recieved ACK for TCP chunk 63 from client 2.
+TCP Chunk 64 sent to client 2.
+Recieved ACK for TCP chunk 64 from client 2.
+TCP Chunk 65 sent to client 2.
+Recieved ACK for TCP chunk 65 from client 2.
+TCP Chunk 66 sent to client 2.
+Recieved ACK for TCP chunk 66 from client 2.
+TCP Chunk 67 sent to client 2.
+Recieved ACK for TCP chunk 67 from client 2.
+TCP Chunk 68 sent to client 2.
+Recieved ACK for TCP chunk 68 from client 2.
+TCP Chunk 69 sent to client 2.
+Recieved ACK for TCP chunk 69 from client 2.
+TCP Chunk 70 sent to client 2.
+Recieved ACK for TCP chunk 70 from client 2.
+TCP Chunk 71 sent to client 2.
+Recieved ACK for TCP chunk 71 from client 2.
+TCP Chunk 72 sent to client 2.
+Recieved ACK for TCP chunk 72 from client 2.
+TCP Chunk 73 sent to client 2.
+Recieved ACK for TCP chunk 73 from client 2.
+TCP Chunk 74 sent to client 2.
+Recieved ACK for TCP chunk 74 from client 2.
+TCP Chunk 75 sent to client 2.
+Recieved ACK for TCP chunk 75 from client 2.
+TCP Chunk 76 sent to client 2.
+Recieved ACK for TCP chunk 76 from client 2.
+TCP Chunk 77 sent to client 2.
+Recieved ACK for TCP chunk 77 from client 2.
+TCP Chunk 78 sent to client 2.
+Recieved ACK for TCP chunk 78 from client 2.
+TCP Chunk 79 sent to client 2.
+Recieved ACK for TCP chunk 79 from client 2.
+TCP Chunk 80 sent to client 2.
+Recieved ACK for TCP chunk 80 from client 2.
+TCP Chunk 81 sent to client 2.
+Recieved ACK for TCP chunk 81 from client 2.
+TCP Chunk 82 sent to client 2.
+Recieved ACK for TCP chunk 82 from client 2.
+TCP Chunk 83 sent to client 2.
+Recieved ACK for TCP chunk 83 from client 2.
+TCP Chunk 84 sent to client 2.
+Recieved ACK for TCP chunk 84 from client 2.
+TCP Chunk 85 sent to client 2.
+Recieved ACK for TCP chunk 85 from client 2.
+TCP Chunk 86 sent to client 2.
+Recieved ACK for TCP chunk 86 from client 2.
+TCP Chunk 87 sent to client 2.
+Recieved ACK for TCP chunk 87 from client 2.
+TCP Chunk 88 sent to client 2.
+Recieved ACK for TCP chunk 88 from client 2.
+TCP Chunk 89 sent to client 2.
+Recieved ACK for TCP chunk 89 from client 2.
+TCP Chunk 90 sent to client 2.
+Recieved ACK for TCP chunk 90 from client 2.
+TCP Chunk 91 sent to client 2.
+Recieved ACK for TCP chunk 91 from client 2.
+TCP Chunk 92 sent to client 2.
+Recieved ACK for TCP chunk 92 from client 2.
+TCP Chunk 93 sent to client 2.
+Recieved ACK for TCP chunk 93 from client 2.
+TCP Chunk 94 sent to client 2.
+Recieved ACK for TCP chunk 94 from client 2.
+TCP Chunk 95 sent to client 2.
+Recieved ACK for TCP chunk 95 from client 2.
+TCP Chunk 96 sent to client 2.
+Recieved ACK for TCP chunk 96 from client 2.
+TCP Chunk 97 sent to client 2.
+Recieved ACK for TCP chunk 97 from client 2.
+TCP Chunk 98 sent to client 2.
+Recieved ACK for TCP chunk 98 from client 2.
+TCP Chunk 99 sent to client 2.
+Recieved ACK for TCP chunk 99 from client 2.
+TCP Chunk 100 sent to client 2.
+Recieved ACK for TCP chunk 100 from client 2.
+TCP Chunk 101 sent to client 2.
+Recieved ACK for TCP chunk 101 from client 2.
+TCP Chunk 102 sent to client 2.
+Recieved ACK for TCP chunk 102 from client 2.
+TCP Chunk 103 sent to client 2.
+Recieved ACK for TCP chunk 103 from client 2.
+TCP Chunk 104 sent to client 2.
+Recieved ACK for TCP chunk 104 from client 2.
+TCP Chunk 105 sent to client 2.
+Recieved ACK for TCP chunk 105 from client 2.
+TCP Chunk 106 sent to client 2.
+Recieved ACK for TCP chunk 106 from client 2.
+TCP Chunk 107 sent to client 2.
+Recieved ACK for TCP chunk 107 from client 2.
+TCP Chunk 108 sent to client 2.
+Recieved ACK for TCP chunk 108 from client 2.
+TCP Chunk 109 sent to client 2.
+Recieved ACK for TCP chunk 109 from client 2.
+TCP Chunk 110 sent to client 2.
+Recieved ACK for TCP chunk 110 from client 2.
+TCP Chunk 111 sent to client 2.
+Recieved ACK for TCP chunk 111 from client 2.
+TCP Chunk 112 sent to client 2.
+Recieved ACK for TCP chunk 112 from client 2.
+TCP Chunk 113 sent to client 2.
+Recieved ACK for TCP chunk 113 from client 2.
+TCP Chunk 114 sent to client 2.
+Recieved ACK for TCP chunk 114 from client 2.
+TCP Chunk 115 sent to client 2.
+Recieved ACK for TCP chunk 115 from client 2.
+TCP Chunk 116 sent to client 2.
+Recieved ACK for TCP chunk 116 from client 2.
+TCP Chunk 117 sent to client 2.
+Recieved ACK for TCP chunk 117 from client 2.
+TCP Chunk 118 sent to client 2.
+Recieved ACK for TCP chunk 118 from client 2.
+TCP Chunk 119 sent to client 2.
+Recieved ACK for TCP chunk 119 from client 2.
+TCP Chunk 120 sent to client 2.
+Recieved ACK for TCP chunk 120 from client 2.
+TCP Chunk 121 sent to client 2.
+Recieved ACK for TCP chunk 121 from client 2.
+TCP Chunk 122 sent to client 2.
+Recieved ACK for TCP chunk 122 from client 2.
+TCP Chunk 123 sent to client 2.
+Recieved ACK for TCP chunk 123 from client 2.
+TCP Chunk 124 sent to client 2.
+Recieved ACK for TCP chunk 124 from client 2.
+TCP Chunk 125 sent to client 2.
+Recieved ACK for TCP chunk 125 from client 2.
+TCP Chunk 126 sent to client 2.
+Recieved ACK for TCP chunk 126 from client 2.
+TCP Chunk 127 sent to client 2.
+Recieved ACK for TCP chunk 127 from client 2.
+TCP Chunk 128 sent to client 2.
+Recieved ACK for TCP chunk 128 from client 2.
+TCP Chunk 129 sent to client 2.
+Recieved ACK for TCP chunk 129 from client 2.
+TCP Chunk 130 sent to client 2.
+Recieved ACK for TCP chunk 130 from client 2.
+TCP Chunk 131 sent to client 2.
+Recieved ACK for TCP chunk 131 from client 2.
+TCP Chunk 132 sent to client 2.
+Recieved ACK for TCP chunk 132 from client 2.
+TCP Chunk 133 sent to client 2.
+Recieved ACK for TCP chunk 133 from client 2.
+TCP Chunk 134 sent to client 2.
+Recieved ACK for TCP chunk 134 from client 2.
+TCP Chunk 135 sent to client 2.
+Recieved ACK for TCP chunk 135 from client 2.
+TCP Chunk 136 sent to client 2.
+Recieved ACK for TCP chunk 136 from client 2.
+TCP Chunk 137 sent to client 2.
+Recieved ACK for TCP chunk 137 from client 2.
+TCP Chunk 138 sent to client 2.
+Recieved ACK for TCP chunk 138 from client 2.
+TCP Chunk 139 sent to client 2.
+Recieved ACK for TCP chunk 139 from client 2.
+TCP Chunk 140 sent to client 2.
+Recieved ACK for TCP chunk 140 from client 2.
+TCP Chunk 141 sent to client 2.
+Recieved ACK for TCP chunk 141 from client 2.
+TCP Chunk 142 sent to client 2.
+Recieved ACK for TCP chunk 142 from client 2.
+TCP Chunk 143 sent to client 2.
+Recieved ACK for TCP chunk 143 from client 2.
+TCP Chunk 144 sent to client 2.
+Recieved ACK for TCP chunk 144 from client 2.
+TCP Chunk 145 sent to client 2.
+Recieved ACK for TCP chunk 145 from client 2.
+TCP Chunk 146 sent to client 2.
+Recieved ACK for TCP chunk 146 from client 2.
+TCP Chunk 147 sent to client 2.
+Recieved ACK for TCP chunk 147 from client 2.
+TCP Chunk 148 sent to client 2.
+Recieved ACK for TCP chunk 148 from client 2.
+TCP Chunk 149 sent to client 2.
+Recieved ACK for TCP chunk 149 from client 2.
+TCP Chunk 150 sent to client 2.
+Recieved ACK for TCP chunk 150 from client 2.
+TCP Chunk 151 sent to client 2.
+Recieved ACK for TCP chunk 151 from client 2.
+TCP Chunk 152 sent to client 2.
+Recieved ACK for TCP chunk 152 from client 2.
+TCP Chunk 153 sent to client 2.
+Recieved ACK for TCP chunk 153 from client 2.
+TCP Chunk 154 sent to client 2.
+Recieved ACK for TCP chunk 154 from client 2.
+TCP Chunk 155 sent to client 2.
+Recieved ACK for TCP chunk 155 from client 2.
+TCP Chunk 156 sent to client 2.
+Recieved ACK for TCP chunk 156 from client 2.
+TCP Chunk 157 sent to client 2.
+Recieved ACK for TCP chunk 157 from client 2.
+TCP Chunk 158 sent to client 2.
+Recieved ACK for TCP chunk 158 from client 2.
+TCP Chunk 159 sent to client 2.
+Recieved ACK for TCP chunk 159 from client 2.
+TCP Chunk 160 sent to client 2.
+Recieved ACK for TCP chunk 160 from client 2.
+TCP Chunk 161 sent to client 2.
+Recieved ACK for TCP chunk 161 from client 2.
+TCP Chunk 162 sent to client 2.
+Recieved ACK for TCP chunk 162 from client 2.
+TCP Chunk 163 sent to client 2.
+Recieved ACK for TCP chunk 163 from client 2.
+TCP Chunk 164 sent to client 2.
+Recieved ACK for TCP chunk 164 from client 2.
+TCP Chunk 165 sent to client 2.
+Recieved ACK for TCP chunk 165 from client 2.
+TCP Chunk 166 sent to client 2.
+Recieved ACK for TCP chunk 166 from client 2.
+TCP Chunk 167 sent to client 2.
+Recieved ACK for TCP chunk 167 from client 2.
+TCP Chunk 168 sent to client 2.
+Recieved ACK for TCP chunk 168 from client 2.
+TCP Chunk 169 sent to client 2.
+Recieved ACK for TCP chunk 169 from client 2.
+TCP Chunk 170 sent to client 2.
+Recieved ACK for TCP chunk 170 from client 2.
+TCP Chunk 171 sent to client 2.
+Recieved ACK for TCP chunk 171 from client 2.
+TCP Chunk 172 sent to client 2.
+Recieved ACK for TCP chunk 172 from client 2.
+TCP Chunk 173 sent to client 2.
+Recieved ACK for TCP chunk 173 from client 2.
+TCP Chunk 174 sent to client 2.
+Recieved ACK for TCP chunk 174 from client 2.
+TCP Chunk 175 sent to client 2.
+Recieved ACK for TCP chunk 175 from client 2.
+TCP Chunk 176 sent to client 2.
+Recieved ACK for TCP chunk 176 from client 2.
+TCP Chunk 177 sent to client 2.
+Recieved ACK for TCP chunk 177 from client 2.
+TCP Chunk 178 sent to client 2.
+Recieved ACK for TCP chunk 178 from client 2.
+TCP Chunk 179 sent to client 2.
+Recieved ACK for TCP chunk 179 from client 2.
+TCP Chunk 180 sent to client 2.
+Recieved ACK for TCP chunk 180 from client 2.
+TCP Chunk 181 sent to client 2.
+Recieved ACK for TCP chunk 181 from client 2.
+TCP Chunk 182 sent to client 2.
+Recieved ACK for TCP chunk 182 from client 2.
+TCP Chunk 183 sent to client 2.
+Recieved ACK for TCP chunk 183 from client 2.
+TCP Chunk 184 sent to client 2.
+Recieved ACK for TCP chunk 184 from client 2.
+TCP Chunk 185 sent to client 2.
+Recieved ACK for TCP chunk 185 from client 2.
+TCP Chunk 186 sent to client 2.
+Recieved ACK for TCP chunk 186 from client 2.
+TCP Chunk 187 sent to client 2.
+Recieved ACK for TCP chunk 187 from client 2.
+TCP Chunk 188 sent to client 2.
+Recieved ACK for TCP chunk 188 from client 2.
+TCP Chunk 189 sent to client 2.
+Recieved ACK for TCP chunk 189 from client 2.
+TCP Chunk 190 sent to client 2.
+Recieved ACK for TCP chunk 190 from client 2.
+TCP Chunk 191 sent to client 2.
+Recieved ACK for TCP chunk 191 from client 2.
+TCP Chunk 192 sent to client 2.
+Recieved ACK for TCP chunk 192 from client 2.
+TCP Chunk 193 sent to client 2.
+Recieved ACK for TCP chunk 193 from client 2.
+TCP Chunk 194 sent to client 2.
+Recieved ACK for TCP chunk 194 from client 2.
+TCP Chunk 195 sent to client 2.
+Recieved ACK for TCP chunk 195 from client 2.
+TCP Chunk 196 sent to client 2.
+Recieved ACK for TCP chunk 196 from client 2.
+TCP Chunk 197 sent to client 2.
+Recieved ACK for TCP chunk 197 from client 2.
+TCP Chunk 198 sent to client 2.
+Recieved ACK for TCP chunk 198 from client 2.
+TCP Chunk 199 sent to client 2.
+Recieved ACK for TCP chunk 199 from client 2.
+TCP Chunk 200 sent to client 2.
+Recieved ACK for TCP chunk 200 from client 2.
+TCP Chunk 201 sent to client 2.
+Recieved ACK for TCP chunk 201 from client 2.
+TCP Chunk 202 sent to client 2.
+Recieved ACK for TCP chunk 202 from client 2.
+TCP Chunk 203 sent to client 2.
+Recieved ACK for TCP chunk 203 from client 2.
+TCP Chunk 204 sent to client 2.
+Recieved ACK for TCP chunk 204 from client 2.
+TCP Chunk 205 sent to client 2.
+Recieved ACK for TCP chunk 205 from client 2.
+TCP Chunk 206 sent to client 2.
+Recieved ACK for TCP chunk 206 from client 2.
+TCP Chunk 207 sent to client 2.
+Recieved ACK for TCP chunk 207 from client 2.
+TCP Chunk 208 sent to client 2.
+Recieved ACK for TCP chunk 208 from client 2.
+TCP Chunk 209 sent to client 2.
+Recieved ACK for TCP chunk 209 from client 2.
+TCP Chunk 210 sent to client 2.
+Recieved ACK for TCP chunk 210 from client 2.
+TCP Chunk 211 sent to client 2.
+Recieved ACK for TCP chunk 211 from client 2.
+TCP Chunk 212 sent to client 2.
+Recieved ACK for TCP chunk 212 from client 2.
+TCP Chunk 213 sent to client 2.
+Recieved ACK for TCP chunk 213 from client 2.
+TCP Chunk 214 sent to client 2.
+Recieved ACK for TCP chunk 214 from client 2.
+TCP Chunk 215 sent to client 2.
+Recieved ACK for TCP chunk 215 from client 2.
+TCP Chunk 216 sent to client 2.
+Recieved ACK for TCP chunk 216 from client 2.
+TCP Chunk 217 sent to client 2.
+Recieved ACK for TCP chunk 217 from client 2.
+TCP Chunk 218 sent to client 2.
+Recieved ACK for TCP chunk 218 from client 2.
+TCP Chunk 219 sent to client 2.
+Recieved ACK for TCP chunk 219 from client 2.
+TCP Chunk 220 sent to client 2.
+Recieved ACK for TCP chunk 220 from client 2.
+TCP Chunk 221 sent to client 2.
+Recieved ACK for TCP chunk 221 from client 2.
+TCP Chunk 222 sent to client 2.
+Recieved ACK for TCP chunk 222 from client 2.
+TCP Chunk 223 sent to client 2.
+Recieved ACK for TCP chunk 223 from client 2.
+TCP Chunk 224 sent to client 2.
+Recieved ACK for TCP chunk 224 from client 2.
+TCP Chunk 225 sent to client 2.
+Recieved ACK for TCP chunk 225 from client 2.
+TCP Chunk 226 sent to client 2.
+Recieved ACK for TCP chunk 226 from client 2.
+TCP Chunk 227 sent to client 2.
+Recieved ACK for TCP chunk 227 from client 2.
+TCP Chunk 228 sent to client 2.
+Recieved ACK for TCP chunk 228 from client 2.
+TCP Chunk 229 sent to client 2.
+Recieved ACK for TCP chunk 229 from client 2.
+TCP Chunk 230 sent to client 2.
+Recieved ACK for TCP chunk 230 from client 2.
+TCP Chunk 231 sent to client 2.
+Recieved ACK for TCP chunk 231 from client 2.
+TCP Chunk 232 sent to client 2.
+Recieved ACK for TCP chunk 232 from client 2.
+TCP Chunk 233 sent to client 2.
+Recieved ACK for TCP chunk 233 from client 2.
+TCP Chunk 234 sent to client 2.
+Recieved ACK for TCP chunk 234 from client 2.
+TCP Chunk 235 sent to client 2.
+Recieved ACK for TCP chunk 235 from client 2.
+TCP Chunk 236 sent to client 2.
+Recieved ACK for TCP chunk 236 from client 2.
+TCP Chunk 237 sent to client 2.
+Recieved ACK for TCP chunk 237 from client 2.
+TCP Chunk 238 sent to client 2.
+Recieved ACK for TCP chunk 238 from client 2.
+TCP Chunk 239 sent to client 2.
+Recieved ACK for TCP chunk 239 from client 2.
+TCP Chunk 240 sent to client 2.
+Recieved ACK for TCP chunk 240 from client 2.
+TCP Chunk 241 sent to client 2.
+Recieved ACK for TCP chunk 241 from client 2.
+TCP Chunk 242 sent to client 2.
+Recieved ACK for TCP chunk 242 from client 2.
+TCP Chunk 243 sent to client 2.
+Recieved ACK for TCP chunk 243 from client 2.
+TCP Chunk 244 sent to client 2.
+Recieved ACK for TCP chunk 244 from client 2.
+TCP Chunk 245 sent to client 2.
+Recieved ACK for TCP chunk 245 from client 2.
+TCP Chunk 246 sent to client 2.
+Recieved ACK for TCP chunk 246 from client 2.
+TCP Chunk 247 sent to client 2.
+Recieved ACK for TCP chunk 247 from client 2.
+TCP Chunk 248 sent to client 2.
+Recieved ACK for TCP chunk 248 from client 2.
+TCP Chunk 249 sent to client 2.
+Recieved ACK for TCP chunk 249 from client 2.
+TCP Chunk 250 sent to client 2.
+Recieved ACK for TCP chunk 250 from client 2.
+TCP Chunk 251 sent to client 2.
+Recieved ACK for TCP chunk 251 from client 2.
+TCP Chunk 252 sent to client 2.
+Recieved ACK for TCP chunk 252 from client 2.
+TCP Chunk 253 sent to client 2.
+Recieved ACK for TCP chunk 253 from client 2.
+TCP Chunk 254 sent to client 2.
+Recieved ACK for TCP chunk 254 from client 2.
+TCP Chunk 255 sent to client 2.
+Recieved ACK for TCP chunk 255 from client 2.
+TCP Chunk 256 sent to client 2.
+Recieved ACK for TCP chunk 256 from client 2.
+TCP Chunk 257 sent to client 2.
+Recieved ACK for TCP chunk 257 from client 2.
+TCP Chunk 258 sent to client 2.
+Recieved ACK for TCP chunk 258 from client 2.
+TCP Chunk 259 sent to client 2.
+Recieved ACK for TCP chunk 259 from client 2.
+TCP Chunk 260 sent to client 2.
+Recieved ACK for TCP chunk 260 from client 2.
+TCP Chunk 261 sent to client 2.
+Recieved ACK for TCP chunk 261 from client 2.
+TCP Chunk 262 sent to client 2.
+Recieved ACK for TCP chunk 262 from client 2.
+TCP Chunk 263 sent to client 2.
+Recieved ACK for TCP chunk 263 from client 2.
+TCP Chunk 264 sent to client 2.
+Recieved ACK for TCP chunk 264 from client 2.
+TCP Chunk 265 sent to client 2.
+Recieved ACK for TCP chunk 265 from client 2.
+TCP Chunk 266 sent to client 2.
+Recieved ACK for TCP chunk 266 from client 2.
+TCP Chunk 267 sent to client 2.
+Recieved ACK for TCP chunk 267 from client 2.
+TCP Chunk 268 sent to client 2.
+Recieved ACK for TCP chunk 268 from client 2.
+TCP Chunk 269 sent to client 2.
+Recieved ACK for TCP chunk 269 from client 2.
+TCP Chunk 270 sent to client 2.
+Recieved ACK for TCP chunk 270 from client 2.
+TCP Chunk 271 sent to client 2.
+Recieved ACK for TCP chunk 271 from client 2.
+TCP Chunk 272 sent to client 2.
+Recieved ACK for TCP chunk 272 from client 2.
+TCP Chunk 273 sent to client 2.
+Recieved ACK for TCP chunk 273 from client 2.
+TCP Chunk 274 sent to client 2.
+Recieved ACK for TCP chunk 274 from client 2.
+TCP Chunk 275 sent to client 2.
+Recieved ACK for TCP chunk 275 from client 2.
+TCP Chunk 276 sent to client 2.
+Recieved ACK for TCP chunk 276 from client 2.
+TCP Chunk 277 sent to client 2.
+Recieved ACK for TCP chunk 277 from client 2.
+TCP Chunk 278 sent to client 2.
+Recieved ACK for TCP chunk 278 from client 2.
+TCP Chunk 279 sent to client 2.
+Recieved ACK for TCP chunk 279 from client 2.
+TCP Chunk 280 sent to client 2.
+Recieved ACK for TCP chunk 280 from client 2.
+TCP Chunk 281 sent to client 2.
+Recieved ACK for TCP chunk 281 from client 2.
+TCP Chunk 282 sent to client 2.
+Recieved ACK for TCP chunk 282 from client 2.
+TCP Chunk 283 sent to client 2.
+Recieved ACK for TCP chunk 283 from client 2.
+TCP Chunk 284 sent to client 2.
+Recieved ACK for TCP chunk 284 from client 2.
+TCP Chunk 285 sent to client 2.
+Recieved ACK for TCP chunk 285 from client 2.
+TCP Chunk 286 sent to client 2.
+Recieved ACK for TCP chunk 286 from client 2.
+TCP Chunk 287 sent to client 2.
+Recieved ACK for TCP chunk 287 from client 2.
+TCP Chunk 288 sent to client 2.
+Recieved ACK for TCP chunk 288 from client 2.
+TCP Chunk 289 sent to client 2.
+Recieved ACK for TCP chunk 289 from client 2.
+TCP Chunk 290 sent to client 2.
+Recieved ACK for TCP chunk 290 from client 2.
+TCP Chunk 291 sent to client 2.
+Recieved ACK for TCP chunk 291 from client 2.
+TCP Chunk 292 sent to client 2.
+Recieved ACK for TCP chunk 292 from client 2.
+TCP Chunk 293 sent to client 2.
+Recieved ACK for TCP chunk 293 from client 2.
+TCP Chunk 294 sent to client 2.
+Recieved ACK for TCP chunk 294 from client 2.
+TCP Chunk 295 sent to client 2.
+Recieved ACK for TCP chunk 295 from client 2.
+TCP Chunk 296 sent to client 2.
+Recieved ACK for TCP chunk 296 from client 2.
+TCP Chunk 297 sent to client 2.
+Recieved ACK for TCP chunk 297 from client 2.
+TCP Chunk 298 sent to client 2.
+Recieved ACK for TCP chunk 298 from client 2.
+TCP Chunk 299 sent to client 2.
+Recieved ACK for TCP chunk 299 from client 2.
+TCP Chunk 300 sent to client 2.
+Recieved ACK for TCP chunk 300 from client 2.
+TCP Chunk 301 sent to client 2.
+Recieved ACK for TCP chunk 301 from client 2.
+TCP stream done for client 2
+Client 3 @127.0.0.1:52924 → wants 1080p via TCP
+TCP → client 3 [1080p @ 8000 Kbps]: 545 chunks, 100ms delay
+TCP Chunk 1 sent to client 3.
+Recieved ACK for TCP chunk 1 from client 3.
+TCP Chunk 2 sent to client 3.
+Recieved ACK for TCP chunk 2 from client 3.
+TCP Chunk 3 sent to client 3.
+Recieved ACK for TCP chunk 3 from client 3.
+TCP Chunk 4 sent to client 3.
+Recieved ACK for TCP chunk 4 from client 3.
+TCP Chunk 5 sent to client 3.
+Recieved ACK for TCP chunk 5 from client 3.
+TCP Chunk 6 sent to client 3.
+Recieved ACK for TCP chunk 6 from client 3.
+TCP Chunk 7 sent to client 3.
+Recieved ACK for TCP chunk 7 from client 3.
+TCP Chunk 8 sent to client 3.
+Recieved ACK for TCP chunk 8 from client 3.
+TCP Chunk 9 sent to client 3.
+Recieved ACK for TCP chunk 9 from client 3.
+TCP Chunk 10 sent to client 3.
+Recieved ACK for TCP chunk 10 from client 3.
+TCP Chunk 11 sent to client 3.
+Recieved ACK for TCP chunk 11 from client 3.
+TCP Chunk 12 sent to client 3.
+Recieved ACK for TCP chunk 12 from client 3.
+TCP Chunk 13 sent to client 3.
+Recieved ACK for TCP chunk 13 from client 3.
+TCP Chunk 14 sent to client 3.
+Recieved ACK for TCP chunk 14 from client 3.
+TCP Chunk 15 sent to client 3.
+Recieved ACK for TCP chunk 15 from client 3.
+TCP Chunk 16 sent to client 3.
+Recieved ACK for TCP chunk 16 from client 3.
+TCP Chunk 17 sent to client 3.
+Recieved ACK for TCP chunk 17 from client 3.
+TCP Chunk 18 sent to client 3.
+Recieved ACK for TCP chunk 18 from client 3.
+TCP Chunk 19 sent to client 3.
+Recieved ACK for TCP chunk 19 from client 3.
+TCP Chunk 20 sent to client 3.
+Recieved ACK for TCP chunk 20 from client 3.
+TCP Chunk 21 sent to client 3.
+Recieved ACK for TCP chunk 21 from client 3.
+TCP Chunk 22 sent to client 3.
+Recieved ACK for TCP chunk 22 from client 3.
+TCP Chunk 23 sent to client 3.
+Recieved ACK for TCP chunk 23 from client 3.
+TCP Chunk 24 sent to client 3.
+Recieved ACK for TCP chunk 24 from client 3.
+TCP Chunk 25 sent to client 3.
+Recieved ACK for TCP chunk 25 from client 3.
+TCP Chunk 26 sent to client 3.
+Recieved ACK for TCP chunk 26 from client 3.
+TCP Chunk 27 sent to client 3.
+Recieved ACK for TCP chunk 27 from client 3.
+TCP Chunk 28 sent to client 3.
+Recieved ACK for TCP chunk 28 from client 3.
+TCP Chunk 29 sent to client 3.
+Recieved ACK for TCP chunk 29 from client 3.
+TCP Chunk 30 sent to client 3.
+Recieved ACK for TCP chunk 30 from client 3.
+TCP Chunk 31 sent to client 3.
+Recieved ACK for TCP chunk 31 from client 3.
+TCP Chunk 32 sent to client 3.
+Recieved ACK for TCP chunk 32 from client 3.
+TCP Chunk 33 sent to client 3.
+Recieved ACK for TCP chunk 33 from client 3.
+TCP Chunk 34 sent to client 3.
+Recieved ACK for TCP chunk 34 from client 3.
+TCP Chunk 35 sent to client 3.
+Recieved ACK for TCP chunk 35 from client 3.
+TCP Chunk 36 sent to client 3.
+Recieved ACK for TCP chunk 36 from client 3.
+TCP Chunk 37 sent to client 3.
+Recieved ACK for TCP chunk 37 from client 3.
+TCP Chunk 38 sent to client 3.
+Recieved ACK for TCP chunk 38 from client 3.
+TCP Chunk 39 sent to client 3.
+Recieved ACK for TCP chunk 39 from client 3.
+TCP Chunk 40 sent to client 3.
+Recieved ACK for TCP chunk 40 from client 3.
+TCP Chunk 41 sent to client 3.
+Recieved ACK for TCP chunk 41 from client 3.
+TCP Chunk 42 sent to client 3.
+Recieved ACK for TCP chunk 42 from client 3.
+TCP Chunk 43 sent to client 3.
+Recieved ACK for TCP chunk 43 from client 3.
+TCP Chunk 44 sent to client 3.
+Recieved ACK for TCP chunk 44 from client 3.
+TCP Chunk 45 sent to client 3.
+Recieved ACK for TCP chunk 45 from client 3.
+TCP Chunk 46 sent to client 3.
+Recieved ACK for TCP chunk 46 from client 3.
+TCP Chunk 47 sent to client 3.
+Recieved ACK for TCP chunk 47 from client 3.
+TCP Chunk 48 sent to client 3.
+Recieved ACK for TCP chunk 48 from client 3.
+TCP Chunk 49 sent to client 3.
+Recieved ACK for TCP chunk 49 from client 3.
+TCP Chunk 50 sent to client 3.
+Recieved ACK for TCP chunk 50 from client 3.
+TCP Chunk 51 sent to client 3.
+Recieved ACK for TCP chunk 51 from client 3.
+TCP Chunk 52 sent to client 3.
+Recieved ACK for TCP chunk 52 from client 3.
+TCP Chunk 53 sent to client 3.
+Recieved ACK for TCP chunk 53 from client 3.
+TCP Chunk 54 sent to client 3.
+Recieved ACK for TCP chunk 54 from client 3.
+TCP Chunk 55 sent to client 3.
+Recieved ACK for TCP chunk 55 from client 3.
+TCP Chunk 56 sent to client 3.
+Recieved ACK for TCP chunk 56 from client 3.
+TCP Chunk 57 sent to client 3.
+Recieved ACK for TCP chunk 57 from client 3.
+TCP Chunk 58 sent to client 3.
+Recieved ACK for TCP chunk 58 from client 3.
+TCP Chunk 59 sent to client 3.
+Recieved ACK for TCP chunk 59 from client 3.
+TCP Chunk 60 sent to client 3.
+Recieved ACK for TCP chunk 60 from client 3.
+TCP Chunk 61 sent to client 3.
+Recieved ACK for TCP chunk 61 from client 3.
+TCP Chunk 62 sent to client 3.
+Recieved ACK for TCP chunk 62 from client 3.
+TCP Chunk 63 sent to client 3.
+Recieved ACK for TCP chunk 63 from client 3.
+TCP Chunk 64 sent to client 3.
+Recieved ACK for TCP chunk 64 from client 3.
+TCP Chunk 65 sent to client 3.
+Recieved ACK for TCP chunk 65 from client 3.
+TCP Chunk 66 sent to client 3.
+Recieved ACK for TCP chunk 66 from client 3.
+TCP Chunk 67 sent to client 3.
+Recieved ACK for TCP chunk 67 from client 3.
+TCP Chunk 68 sent to client 3.
+Recieved ACK for TCP chunk 68 from client 3.
+TCP Chunk 69 sent to client 3.
+Recieved ACK for TCP chunk 69 from client 3.
+TCP Chunk 70 sent to client 3.
+Recieved ACK for TCP chunk 70 from client 3.
+TCP Chunk 71 sent to client 3.
+Recieved ACK for TCP chunk 71 from client 3.
+TCP Chunk 72 sent to client 3.
+Recieved ACK for TCP chunk 72 from client 3.
+TCP Chunk 73 sent to client 3.
+Recieved ACK for TCP chunk 73 from client 3.
+TCP Chunk 74 sent to client 3.
+Recieved ACK for TCP chunk 74 from client 3.
+TCP Chunk 75 sent to client 3.
+Recieved ACK for TCP chunk 75 from client 3.
+TCP Chunk 76 sent to client 3.
+Recieved ACK for TCP chunk 76 from client 3.
+TCP Chunk 77 sent to client 3.
+Recieved ACK for TCP chunk 77 from client 3.
+TCP Chunk 78 sent to client 3.
+Recieved ACK for TCP chunk 78 from client 3.
+TCP Chunk 79 sent to client 3.
+Recieved ACK for TCP chunk 79 from client 3.
+TCP Chunk 80 sent to client 3.
+Recieved ACK for TCP chunk 80 from client 3.
+TCP Chunk 81 sent to client 3.
+Recieved ACK for TCP chunk 81 from client 3.
+TCP Chunk 82 sent to client 3.
+Recieved ACK for TCP chunk 82 from client 3.
+TCP Chunk 83 sent to client 3.
+Recieved ACK for TCP chunk 83 from client 3.
+TCP Chunk 84 sent to client 3.
+Recieved ACK for TCP chunk 84 from client 3.
+TCP Chunk 85 sent to client 3.
+Recieved ACK for TCP chunk 85 from client 3.
+TCP Chunk 86 sent to client 3.
+Recieved ACK for TCP chunk 86 from client 3.
+TCP Chunk 87 sent to client 3.
+Recieved ACK for TCP chunk 87 from client 3.
+TCP Chunk 88 sent to client 3.
+Recieved ACK for TCP chunk 88 from client 3.
+TCP Chunk 89 sent to client 3.
+Recieved ACK for TCP chunk 89 from client 3.
+TCP Chunk 90 sent to client 3.
+Recieved ACK for TCP chunk 90 from client 3.
+TCP Chunk 91 sent to client 3.
+Recieved ACK for TCP chunk 91 from client 3.
+TCP Chunk 92 sent to client 3.
+Recieved ACK for TCP chunk 92 from client 3.
+TCP Chunk 93 sent to client 3.
+Recieved ACK for TCP chunk 93 from client 3.
+TCP Chunk 94 sent to client 3.
+Recieved ACK for TCP chunk 94 from client 3.
+TCP Chunk 95 sent to client 3.
+Recieved ACK for TCP chunk 95 from client 3.
+TCP Chunk 96 sent to client 3.
+Recieved ACK for TCP chunk 96 from client 3.
+TCP Chunk 97 sent to client 3.
+Recieved ACK for TCP chunk 97 from client 3.
+TCP Chunk 98 sent to client 3.
+Recieved ACK for TCP chunk 98 from client 3.
+TCP Chunk 99 sent to client 3.
+Recieved ACK for TCP chunk 99 from client 3.
+TCP Chunk 100 sent to client 3.
+Recieved ACK for TCP chunk 100 from client 3.
+TCP Chunk 101 sent to client 3.
+Recieved ACK for TCP chunk 101 from client 3.
+TCP Chunk 102 sent to client 3.
+Recieved ACK for TCP chunk 102 from client 3.
+TCP Chunk 103 sent to client 3.
+Recieved ACK for TCP chunk 103 from client 3.
+TCP Chunk 104 sent to client 3.
+Recieved ACK for TCP chunk 104 from client 3.
+TCP Chunk 105 sent to client 3.
+Recieved ACK for TCP chunk 105 from client 3.
+TCP Chunk 106 sent to client 3.
+Recieved ACK for TCP chunk 106 from client 3.
+TCP Chunk 107 sent to client 3.
+Recieved ACK for TCP chunk 107 from client 3.
+TCP Chunk 108 sent to client 3.
+Recieved ACK for TCP chunk 108 from client 3.
+TCP Chunk 109 sent to client 3.
+Recieved ACK for TCP chunk 109 from client 3.
+TCP Chunk 110 sent to client 3.
+Recieved ACK for TCP chunk 110 from client 3.
+TCP Chunk 111 sent to client 3.
+Recieved ACK for TCP chunk 111 from client 3.
+TCP Chunk 112 sent to client 3.
+Recieved ACK for TCP chunk 112 from client 3.
+TCP Chunk 113 sent to client 3.
+Recieved ACK for TCP chunk 113 from client 3.
+TCP Chunk 114 sent to client 3.
+Recieved ACK for TCP chunk 114 from client 3.
+TCP Chunk 115 sent to client 3.
+Recieved ACK for TCP chunk 115 from client 3.
+TCP Chunk 116 sent to client 3.
+Recieved ACK for TCP chunk 116 from client 3.
+TCP Chunk 117 sent to client 3.
+Recieved ACK for TCP chunk 117 from client 3.
+TCP Chunk 118 sent to client 3.
+Recieved ACK for TCP chunk 118 from client 3.
+TCP Chunk 119 sent to client 3.
+Recieved ACK for TCP chunk 119 from client 3.
+TCP Chunk 120 sent to client 3.
+Recieved ACK for TCP chunk 120 from client 3.
+TCP Chunk 121 sent to client 3.
+Recieved ACK for TCP chunk 121 from client 3.
+TCP Chunk 122 sent to client 3.
+Recieved ACK for TCP chunk 122 from client 3.
+TCP Chunk 123 sent to client 3.
+Recieved ACK for TCP chunk 123 from client 3.
+TCP Chunk 124 sent to client 3.
+Recieved ACK for TCP chunk 124 from client 3.
+TCP Chunk 125 sent to client 3.
+Recieved ACK for TCP chunk 125 from client 3.
+TCP Chunk 126 sent to client 3.
+Recieved ACK for TCP chunk 126 from client 3.
+TCP Chunk 127 sent to client 3.
+Recieved ACK for TCP chunk 127 from client 3.
+TCP Chunk 128 sent to client 3.
+Recieved ACK for TCP chunk 128 from client 3.
+TCP Chunk 129 sent to client 3.
+Recieved ACK for TCP chunk 129 from client 3.
+TCP Chunk 130 sent to client 3.
+Recieved ACK for TCP chunk 130 from client 3.
+TCP Chunk 131 sent to client 3.
+Recieved ACK for TCP chunk 131 from client 3.
+TCP Chunk 132 sent to client 3.
+Recieved ACK for TCP chunk 132 from client 3.
+TCP Chunk 133 sent to client 3.
+Recieved ACK for TCP chunk 133 from client 3.
+TCP Chunk 134 sent to client 3.
+Recieved ACK for TCP chunk 134 from client 3.
+TCP Chunk 135 sent to client 3.
+Recieved ACK for TCP chunk 135 from client 3.
+TCP Chunk 136 sent to client 3.
+Recieved ACK for TCP chunk 136 from client 3.
+TCP Chunk 137 sent to client 3.
+Recieved ACK for TCP chunk 137 from client 3.
+TCP Chunk 138 sent to client 3.
+Recieved ACK for TCP chunk 138 from client 3.
+TCP Chunk 139 sent to client 3.
+Recieved ACK for TCP chunk 139 from client 3.
+TCP Chunk 140 sent to client 3.
+Recieved ACK for TCP chunk 140 from client 3.
+TCP Chunk 141 sent to client 3.
+Recieved ACK for TCP chunk 141 from client 3.
+TCP Chunk 142 sent to client 3.
+Recieved ACK for TCP chunk 142 from client 3.
+TCP Chunk 143 sent to client 3.
+Recieved ACK for TCP chunk 143 from client 3.
+TCP Chunk 144 sent to client 3.
+Recieved ACK for TCP chunk 144 from client 3.
+TCP Chunk 145 sent to client 3.
+Recieved ACK for TCP chunk 145 from client 3.
+TCP Chunk 146 sent to client 3.
+Recieved ACK for TCP chunk 146 from client 3.
+TCP Chunk 147 sent to client 3.
+Recieved ACK for TCP chunk 147 from client 3.
+TCP Chunk 148 sent to client 3.
+Recieved ACK for TCP chunk 148 from client 3.
+TCP Chunk 149 sent to client 3.
+Recieved ACK for TCP chunk 149 from client 3.
+TCP Chunk 150 sent to client 3.
+Recieved ACK for TCP chunk 150 from client 3.
+TCP Chunk 151 sent to client 3.
+Recieved ACK for TCP chunk 151 from client 3.
+TCP Chunk 152 sent to client 3.
+Recieved ACK for TCP chunk 152 from client 3.
+TCP Chunk 153 sent to client 3.
+Recieved ACK for TCP chunk 153 from client 3.
+TCP Chunk 154 sent to client 3.
+Recieved ACK for TCP chunk 154 from client 3.
+TCP Chunk 155 sent to client 3.
+Recieved ACK for TCP chunk 155 from client 3.
+TCP Chunk 156 sent to client 3.
+Recieved ACK for TCP chunk 156 from client 3.
+TCP Chunk 157 sent to client 3.
+Recieved ACK for TCP chunk 157 from client 3.
+TCP Chunk 158 sent to client 3.
+Recieved ACK for TCP chunk 158 from client 3.
+TCP Chunk 159 sent to client 3.
+Recieved ACK for TCP chunk 159 from client 3.
+TCP Chunk 160 sent to client 3.
+Recieved ACK for TCP chunk 160 from client 3.
+TCP Chunk 161 sent to client 3.
+Recieved ACK for TCP chunk 161 from client 3.
+TCP Chunk 162 sent to client 3.
+Recieved ACK for TCP chunk 162 from client 3.
+TCP Chunk 163 sent to client 3.
+Recieved ACK for TCP chunk 163 from client 3.
+TCP Chunk 164 sent to client 3.
+Recieved ACK for TCP chunk 164 from client 3.
+TCP Chunk 165 sent to client 3.
+Recieved ACK for TCP chunk 165 from client 3.
+TCP Chunk 166 sent to client 3.
+Recieved ACK for TCP chunk 166 from client 3.
+TCP Chunk 167 sent to client 3.
+Recieved ACK for TCP chunk 167 from client 3.
+TCP Chunk 168 sent to client 3.
+Recieved ACK for TCP chunk 168 from client 3.
+TCP Chunk 169 sent to client 3.
+Recieved ACK for TCP chunk 169 from client 3.
+TCP Chunk 170 sent to client 3.
+Recieved ACK for TCP chunk 170 from client 3.
+TCP Chunk 171 sent to client 3.
+Recieved ACK for TCP chunk 171 from client 3.
+TCP Chunk 172 sent to client 3.
+Recieved ACK for TCP chunk 172 from client 3.
+TCP Chunk 173 sent to client 3.
+Recieved ACK for TCP chunk 173 from client 3.
+TCP Chunk 174 sent to client 3.
+Recieved ACK for TCP chunk 174 from client 3.
+TCP Chunk 175 sent to client 3.
+Recieved ACK for TCP chunk 175 from client 3.
+TCP Chunk 176 sent to client 3.
+Recieved ACK for TCP chunk 176 from client 3.
+TCP Chunk 177 sent to client 3.
+Recieved ACK for TCP chunk 177 from client 3.
+TCP Chunk 178 sent to client 3.
+Recieved ACK for TCP chunk 178 from client 3.
+TCP Chunk 179 sent to client 3.
+Recieved ACK for TCP chunk 179 from client 3.
+TCP Chunk 180 sent to client 3.
+Recieved ACK for TCP chunk 180 from client 3.
+TCP Chunk 181 sent to client 3.
+Recieved ACK for TCP chunk 181 from client 3.
+TCP Chunk 182 sent to client 3.
+Recieved ACK for TCP chunk 182 from client 3.
+TCP Chunk 183 sent to client 3.
+Recieved ACK for TCP chunk 183 from client 3.
+TCP Chunk 184 sent to client 3.
+Recieved ACK for TCP chunk 184 from client 3.
+TCP Chunk 185 sent to client 3.
+Recieved ACK for TCP chunk 185 from client 3.
+TCP Chunk 186 sent to client 3.
+Recieved ACK for TCP chunk 186 from client 3.
+TCP Chunk 187 sent to client 3.
+Recieved ACK for TCP chunk 187 from client 3.
+TCP Chunk 188 sent to client 3.
+Recieved ACK for TCP chunk 188 from client 3.
+TCP Chunk 189 sent to client 3.
+Recieved ACK for TCP chunk 189 from client 3.
+TCP Chunk 190 sent to client 3.
+Recieved ACK for TCP chunk 190 from client 3.
+TCP Chunk 191 sent to client 3.
+Recieved ACK for TCP chunk 191 from client 3.
+TCP Chunk 192 sent to client 3.
+Recieved ACK for TCP chunk 192 from client 3.
+TCP Chunk 193 sent to client 3.
+Recieved ACK for TCP chunk 193 from client 3.
+TCP Chunk 194 sent to client 3.
+Recieved ACK for TCP chunk 194 from client 3.
+TCP Chunk 195 sent to client 3.
+Recieved ACK for TCP chunk 195 from client 3.
+TCP Chunk 196 sent to client 3.
+Recieved ACK for TCP chunk 196 from client 3.
+TCP Chunk 197 sent to client 3.
+Recieved ACK for TCP chunk 197 from client 3.
+TCP Chunk 198 sent to client 3.
+Recieved ACK for TCP chunk 198 from client 3.
+TCP Chunk 199 sent to client 3.
+Recieved ACK for TCP chunk 199 from client 3.
+TCP Chunk 200 sent to client 3.
+Recieved ACK for TCP chunk 200 from client 3.
+TCP Chunk 201 sent to client 3.
+Recieved ACK for TCP chunk 201 from client 3.
+TCP Chunk 202 sent to client 3.
+Recieved ACK for TCP chunk 202 from client 3.
+TCP Chunk 203 sent to client 3.
+Recieved ACK for TCP chunk 203 from client 3.
+TCP Chunk 204 sent to client 3.
+Recieved ACK for TCP chunk 204 from client 3.
+TCP Chunk 205 sent to client 3.
+Recieved ACK for TCP chunk 205 from client 3.
+TCP Chunk 206 sent to client 3.
+Recieved ACK for TCP chunk 206 from client 3.
+TCP Chunk 207 sent to client 3.
+Recieved ACK for TCP chunk 207 from client 3.
+TCP Chunk 208 sent to client 3.
+Recieved ACK for TCP chunk 208 from client 3.
+TCP Chunk 209 sent to client 3.
+Recieved ACK for TCP chunk 209 from client 3.
+TCP Chunk 210 sent to client 3.
+Recieved ACK for TCP chunk 210 from client 3.
+TCP Chunk 211 sent to client 3.
+Recieved ACK for TCP chunk 211 from client 3.
+TCP Chunk 212 sent to client 3.
+Recieved ACK for TCP chunk 212 from client 3.
+TCP Chunk 213 sent to client 3.
+Recieved ACK for TCP chunk 213 from client 3.
+TCP Chunk 214 sent to client 3.
+Recieved ACK for TCP chunk 214 from client 3.
+TCP Chunk 215 sent to client 3.
+Recieved ACK for TCP chunk 215 from client 3.
+TCP Chunk 216 sent to client 3.
+Recieved ACK for TCP chunk 216 from client 3.
+TCP Chunk 217 sent to client 3.
+Recieved ACK for TCP chunk 217 from client 3.
+TCP Chunk 218 sent to client 3.
+Recieved ACK for TCP chunk 218 from client 3.
+TCP Chunk 219 sent to client 3.
+Recieved ACK for TCP chunk 219 from client 3.
+TCP Chunk 220 sent to client 3.
+Recieved ACK for TCP chunk 220 from client 3.
+TCP Chunk 221 sent to client 3.
+Recieved ACK for TCP chunk 221 from client 3.
+TCP Chunk 222 sent to client 3.
+Recieved ACK for TCP chunk 222 from client 3.
+TCP Chunk 223 sent to client 3.
+Recieved ACK for TCP chunk 223 from client 3.
+TCP Chunk 224 sent to client 3.
+Recieved ACK for TCP chunk 224 from client 3.
+TCP Chunk 225 sent to client 3.
+Recieved ACK for TCP chunk 225 from client 3.
+TCP Chunk 226 sent to client 3.
+Recieved ACK for TCP chunk 226 from client 3.
+TCP Chunk 227 sent to client 3.
+Recieved ACK for TCP chunk 227 from client 3.
+TCP Chunk 228 sent to client 3.
+Recieved ACK for TCP chunk 228 from client 3.
+TCP Chunk 229 sent to client 3.
+Recieved ACK for TCP chunk 229 from client 3.
+TCP Chunk 230 sent to client 3.
+Recieved ACK for TCP chunk 230 from client 3.
+TCP Chunk 231 sent to client 3.
+Recieved ACK for TCP chunk 231 from client 3.
+TCP Chunk 232 sent to client 3.
+Recieved ACK for TCP chunk 232 from client 3.
+TCP Chunk 233 sent to client 3.
+Recieved ACK for TCP chunk 233 from client 3.
+TCP Chunk 234 sent to client 3.
+Recieved ACK for TCP chunk 234 from client 3.
+TCP Chunk 235 sent to client 3.
+Recieved ACK for TCP chunk 235 from client 3.
+TCP Chunk 236 sent to client 3.
+Recieved ACK for TCP chunk 236 from client 3.
+TCP Chunk 237 sent to client 3.
+Recieved ACK for TCP chunk 237 from client 3.
+TCP Chunk 238 sent to client 3.
+Recieved ACK for TCP chunk 238 from client 3.
+TCP Chunk 239 sent to client 3.
+Recieved ACK for TCP chunk 239 from client 3.
+TCP Chunk 240 sent to client 3.
+Recieved ACK for TCP chunk 240 from client 3.
+TCP Chunk 241 sent to client 3.
+Recieved ACK for TCP chunk 241 from client 3.
+TCP Chunk 242 sent to client 3.
+Recieved ACK for TCP chunk 242 from client 3.
+TCP Chunk 243 sent to client 3.
+Recieved ACK for TCP chunk 243 from client 3.
+TCP Chunk 244 sent to client 3.
+Recieved ACK for TCP chunk 244 from client 3.
+TCP Chunk 245 sent to client 3.
+Recieved ACK for TCP chunk 245 from client 3.
+TCP Chunk 246 sent to client 3.
+Recieved ACK for TCP chunk 246 from client 3.
+TCP Chunk 247 sent to client 3.
+Recieved ACK for TCP chunk 247 from client 3.
+TCP Chunk 248 sent to client 3.
+Recieved ACK for TCP chunk 248 from client 3.
+TCP Chunk 249 sent to client 3.
+Recieved ACK for TCP chunk 249 from client 3.
+TCP Chunk 250 sent to client 3.
+Recieved ACK for TCP chunk 250 from client 3.
+TCP Chunk 251 sent to client 3.
+Recieved ACK for TCP chunk 251 from client 3.
+TCP Chunk 252 sent to client 3.
+Recieved ACK for TCP chunk 252 from client 3.
+TCP Chunk 253 sent to client 3.
+Recieved ACK for TCP chunk 253 from client 3.
+TCP Chunk 254 sent to client 3.
+Recieved ACK for TCP chunk 254 from client 3.
+TCP Chunk 255 sent to client 3.
+Recieved ACK for TCP chunk 255 from client 3.
+TCP Chunk 256 sent to client 3.
+Recieved ACK for TCP chunk 256 from client 3.
+TCP Chunk 257 sent to client 3.
+Recieved ACK for TCP chunk 257 from client 3.
+TCP Chunk 258 sent to client 3.
+Recieved ACK for TCP chunk 258 from client 3.
+TCP Chunk 259 sent to client 3.
+Recieved ACK for TCP chunk 259 from client 3.
+TCP Chunk 260 sent to client 3.
+Recieved ACK for TCP chunk 260 from client 3.
+TCP Chunk 261 sent to client 3.
+Recieved ACK for TCP chunk 261 from client 3.
+TCP Chunk 262 sent to client 3.
+Recieved ACK for TCP chunk 262 from client 3.
+TCP Chunk 263 sent to client 3.
+Recieved ACK for TCP chunk 263 from client 3.
+TCP Chunk 264 sent to client 3.
+Recieved ACK for TCP chunk 264 from client 3.
+TCP Chunk 265 sent to client 3.
+Recieved ACK for TCP chunk 265 from client 3.
+TCP Chunk 266 sent to client 3.
+Recieved ACK for TCP chunk 266 from client 3.
+TCP Chunk 267 sent to client 3.
+Recieved ACK for TCP chunk 267 from client 3.
+TCP Chunk 268 sent to client 3.
+Recieved ACK for TCP chunk 268 from client 3.
+TCP Chunk 269 sent to client 3.
+Recieved ACK for TCP chunk 269 from client 3.
+TCP Chunk 270 sent to client 3.
+Recieved ACK for TCP chunk 270 from client 3.
+TCP Chunk 271 sent to client 3.
+Recieved ACK for TCP chunk 271 from client 3.
+TCP Chunk 272 sent to client 3.
+Recieved ACK for TCP chunk 272 from client 3.
+TCP Chunk 273 sent to client 3.
+Recieved ACK for TCP chunk 273 from client 3.
+TCP Chunk 274 sent to client 3.
+Recieved ACK for TCP chunk 274 from client 3.
+TCP Chunk 275 sent to client 3.
+Recieved ACK for TCP chunk 275 from client 3.
+TCP Chunk 276 sent to client 3.
+Recieved ACK for TCP chunk 276 from client 3.
+TCP Chunk 277 sent to client 3.
+Recieved ACK for TCP chunk 277 from client 3.
+TCP Chunk 278 sent to client 3.
+Recieved ACK for TCP chunk 278 from client 3.
+TCP Chunk 279 sent to client 3.
+Recieved ACK for TCP chunk 279 from client 3.
+TCP Chunk 280 sent to client 3.
+Recieved ACK for TCP chunk 280 from client 3.
+TCP Chunk 281 sent to client 3.
+Recieved ACK for TCP chunk 281 from client 3.
+TCP Chunk 282 sent to client 3.
+Recieved ACK for TCP chunk 282 from client 3.
+TCP Chunk 283 sent to client 3.
+Recieved ACK for TCP chunk 283 from client 3.
+TCP Chunk 284 sent to client 3.
+Recieved ACK for TCP chunk 284 from client 3.
+TCP Chunk 285 sent to client 3.
+Recieved ACK for TCP chunk 285 from client 3.
+TCP Chunk 286 sent to client 3.
+Recieved ACK for TCP chunk 286 from client 3.
+TCP Chunk 287 sent to client 3.
+Recieved ACK for TCP chunk 287 from client 3.
+TCP Chunk 288 sent to client 3.
+Recieved ACK for TCP chunk 288 from client 3.
+TCP Chunk 289 sent to client 3.
+Recieved ACK for TCP chunk 289 from client 3.
+TCP Chunk 290 sent to client 3.
+Recieved ACK for TCP chunk 290 from client 3.
+TCP Chunk 291 sent to client 3.
+Recieved ACK for TCP chunk 291 from client 3.
+TCP Chunk 292 sent to client 3.
+Recieved ACK for TCP chunk 292 from client 3.
+TCP Chunk 293 sent to client 3.
+Recieved ACK for TCP chunk 293 from client 3.
+TCP Chunk 294 sent to client 3.
+Recieved ACK for TCP chunk 294 from client 3.
+TCP Chunk 295 sent to client 3.
+Recieved ACK for TCP chunk 295 from client 3.
+TCP Chunk 296 sent to client 3.
+Recieved ACK for TCP chunk 296 from client 3.
+TCP Chunk 297 sent to client 3.
+Recieved ACK for TCP chunk 297 from client 3.
+TCP Chunk 298 sent to client 3.
+Recieved ACK for TCP chunk 298 from client 3.
+TCP Chunk 299 sent to client 3.
+Recieved ACK for TCP chunk 299 from client 3.
+TCP Chunk 300 sent to client 3.
+Recieved ACK for TCP chunk 300 from client 3.
+TCP Chunk 301 sent to client 3.
+Recieved ACK for TCP chunk 301 from client 3.
+TCP Chunk 302 sent to client 3.
+Recieved ACK for TCP chunk 302 from client 3.
+TCP Chunk 303 sent to client 3.
+Recieved ACK for TCP chunk 303 from client 3.
+TCP Chunk 304 sent to client 3.
+Recieved ACK for TCP chunk 304 from client 3.
+TCP Chunk 305 sent to client 3.
+Recieved ACK for TCP chunk 305 from client 3.
+TCP Chunk 306 sent to client 3.
+Recieved ACK for TCP chunk 306 from client 3.
+TCP Chunk 307 sent to client 3.
+Recieved ACK for TCP chunk 307 from client 3.
+TCP Chunk 308 sent to client 3.
+Recieved ACK for TCP chunk 308 from client 3.
+TCP Chunk 309 sent to client 3.
+Recieved ACK for TCP chunk 309 from client 3.
+TCP Chunk 310 sent to client 3.
+Recieved ACK for TCP chunk 310 from client 3.
+TCP Chunk 311 sent to client 3.
+Recieved ACK for TCP chunk 311 from client 3.
+TCP Chunk 312 sent to client 3.
+Recieved ACK for TCP chunk 312 from client 3.
+TCP Chunk 313 sent to client 3.
+Recieved ACK for TCP chunk 313 from client 3.
+TCP Chunk 314 sent to client 3.
+Recieved ACK for TCP chunk 314 from client 3.
+TCP Chunk 315 sent to client 3.
+Recieved ACK for TCP chunk 315 from client 3.
+TCP Chunk 316 sent to client 3.
+Recieved ACK for TCP chunk 316 from client 3.
+TCP Chunk 317 sent to client 3.
+Recieved ACK for TCP chunk 317 from client 3.
+TCP Chunk 318 sent to client 3.
+Recieved ACK for TCP chunk 318 from client 3.
+TCP Chunk 319 sent to client 3.
+Recieved ACK for TCP chunk 319 from client 3.
+TCP Chunk 320 sent to client 3.
+Recieved ACK for TCP chunk 320 from client 3.
+TCP Chunk 321 sent to client 3.
+Recieved ACK for TCP chunk 321 from client 3.
+TCP Chunk 322 sent to client 3.
+Recieved ACK for TCP chunk 322 from client 3.
+TCP Chunk 323 sent to client 3.
+Recieved ACK for TCP chunk 323 from client 3.
+TCP Chunk 324 sent to client 3.
+Recieved ACK for TCP chunk 324 from client 3.
+TCP Chunk 325 sent to client 3.
+Recieved ACK for TCP chunk 325 from client 3.
+TCP Chunk 326 sent to client 3.
+Recieved ACK for TCP chunk 326 from client 3.
+TCP Chunk 327 sent to client 3.
+Recieved ACK for TCP chunk 327 from client 3.
+TCP Chunk 328 sent to client 3.
+Recieved ACK for TCP chunk 328 from client 3.
+TCP Chunk 329 sent to client 3.
+Recieved ACK for TCP chunk 329 from client 3.
+TCP Chunk 330 sent to client 3.
+Recieved ACK for TCP chunk 330 from client 3.
+TCP Chunk 331 sent to client 3.
+Recieved ACK for TCP chunk 331 from client 3.
+TCP Chunk 332 sent to client 3.
+Recieved ACK for TCP chunk 332 from client 3.
+TCP Chunk 333 sent to client 3.
+Recieved ACK for TCP chunk 333 from client 3.
+TCP Chunk 334 sent to client 3.
+Recieved ACK for TCP chunk 334 from client 3.
+TCP Chunk 335 sent to client 3.
+Recieved ACK for TCP chunk 335 from client 3.
+TCP Chunk 336 sent to client 3.
+Recieved ACK for TCP chunk 336 from client 3.
+TCP Chunk 337 sent to client 3.
+Recieved ACK for TCP chunk 337 from client 3.
+TCP Chunk 338 sent to client 3.
+Recieved ACK for TCP chunk 338 from client 3.
+TCP Chunk 339 sent to client 3.
+Recieved ACK for TCP chunk 339 from client 3.
+TCP Chunk 340 sent to client 3.
+Recieved ACK for TCP chunk 340 from client 3.
+TCP Chunk 341 sent to client 3.
+Recieved ACK for TCP chunk 341 from client 3.
+TCP Chunk 342 sent to client 3.
+Recieved ACK for TCP chunk 342 from client 3.
+TCP Chunk 343 sent to client 3.
+Recieved ACK for TCP chunk 343 from client 3.
+TCP Chunk 344 sent to client 3.
+Recieved ACK for TCP chunk 344 from client 3.
+TCP Chunk 345 sent to client 3.
+Recieved ACK for TCP chunk 345 from client 3.
+TCP Chunk 346 sent to client 3.
+Recieved ACK for TCP chunk 346 from client 3.
+TCP Chunk 347 sent to client 3.
+Recieved ACK for TCP chunk 347 from client 3.
+TCP Chunk 348 sent to client 3.
+Recieved ACK for TCP chunk 348 from client 3.
+TCP Chunk 349 sent to client 3.
+Recieved ACK for TCP chunk 349 from client 3.
+TCP Chunk 350 sent to client 3.
+Recieved ACK for TCP chunk 350 from client 3.
+TCP Chunk 351 sent to client 3.
+Recieved ACK for TCP chunk 351 from client 3.
+TCP Chunk 352 sent to client 3.
+Recieved ACK for TCP chunk 352 from client 3.
+TCP Chunk 353 sent to client 3.
+Recieved ACK for TCP chunk 353 from client 3.
+TCP Chunk 354 sent to client 3.
+Recieved ACK for TCP chunk 354 from client 3.
+TCP Chunk 355 sent to client 3.
+Recieved ACK for TCP chunk 355 from client 3.
+TCP Chunk 356 sent to client 3.
+Recieved ACK for TCP chunk 356 from client 3.
+TCP Chunk 357 sent to client 3.
+Recieved ACK for TCP chunk 357 from client 3.
+TCP Chunk 358 sent to client 3.
+Recieved ACK for TCP chunk 358 from client 3.
+TCP Chunk 359 sent to client 3.
+Recieved ACK for TCP chunk 359 from client 3.
+TCP Chunk 360 sent to client 3.
+Recieved ACK for TCP chunk 360 from client 3.
+TCP Chunk 361 sent to client 3.
+Recieved ACK for TCP chunk 361 from client 3.
+TCP Chunk 362 sent to client 3.
+Recieved ACK for TCP chunk 362 from client 3.
+TCP Chunk 363 sent to client 3.
+Recieved ACK for TCP chunk 363 from client 3.
+TCP Chunk 364 sent to client 3.
+Recieved ACK for TCP chunk 364 from client 3.
+TCP Chunk 365 sent to client 3.
+Recieved ACK for TCP chunk 365 from client 3.
+TCP Chunk 366 sent to client 3.
+Recieved ACK for TCP chunk 366 from client 3.
+TCP Chunk 367 sent to client 3.
+Recieved ACK for TCP chunk 367 from client 3.
+TCP Chunk 368 sent to client 3.
+Recieved ACK for TCP chunk 368 from client 3.
+TCP Chunk 369 sent to client 3.
+Recieved ACK for TCP chunk 369 from client 3.
+TCP Chunk 370 sent to client 3.
+Recieved ACK for TCP chunk 370 from client 3.
+TCP Chunk 371 sent to client 3.
+Recieved ACK for TCP chunk 371 from client 3.
+TCP Chunk 372 sent to client 3.
+Recieved ACK for TCP chunk 372 from client 3.
+TCP Chunk 373 sent to client 3.
+Recieved ACK for TCP chunk 373 from client 3.
+TCP Chunk 374 sent to client 3.
+Recieved ACK for TCP chunk 374 from client 3.
+TCP Chunk 375 sent to client 3.
+Recieved ACK for TCP chunk 375 from client 3.
+TCP Chunk 376 sent to client 3.
+Recieved ACK for TCP chunk 376 from client 3.
+TCP Chunk 377 sent to client 3.
+Recieved ACK for TCP chunk 377 from client 3.
+TCP Chunk 378 sent to client 3.
+Recieved ACK for TCP chunk 378 from client 3.
+TCP Chunk 379 sent to client 3.
+Recieved ACK for TCP chunk 379 from client 3.
+TCP Chunk 380 sent to client 3.
+Recieved ACK for TCP chunk 380 from client 3.
+TCP Chunk 381 sent to client 3.
+Recieved ACK for TCP chunk 381 from client 3.
+TCP Chunk 382 sent to client 3.
+Recieved ACK for TCP chunk 382 from client 3.
+TCP Chunk 383 sent to client 3.
+Recieved ACK for TCP chunk 383 from client 3.
+TCP Chunk 384 sent to client 3.
+Recieved ACK for TCP chunk 384 from client 3.
+TCP Chunk 385 sent to client 3.
+Recieved ACK for TCP chunk 385 from client 3.
+TCP Chunk 386 sent to client 3.
+Recieved ACK for TCP chunk 386 from client 3.
+TCP Chunk 387 sent to client 3.
+Recieved ACK for TCP chunk 387 from client 3.
+TCP Chunk 388 sent to client 3.
+Recieved ACK for TCP chunk 388 from client 3.
+TCP Chunk 389 sent to client 3.
+Recieved ACK for TCP chunk 389 from client 3.
+TCP Chunk 390 sent to client 3.
+Recieved ACK for TCP chunk 390 from client 3.
+TCP Chunk 391 sent to client 3.
+Recieved ACK for TCP chunk 391 from client 3.
+TCP Chunk 392 sent to client 3.
+Recieved ACK for TCP chunk 392 from client 3.
+TCP Chunk 393 sent to client 3.
+Recieved ACK for TCP chunk 393 from client 3.
+TCP Chunk 394 sent to client 3.
+Recieved ACK for TCP chunk 394 from client 3.
+TCP Chunk 395 sent to client 3.
+Recieved ACK for TCP chunk 395 from client 3.
+TCP Chunk 396 sent to client 3.
+Recieved ACK for TCP chunk 396 from client 3.
+TCP Chunk 397 sent to client 3.
+Recieved ACK for TCP chunk 397 from client 3.
+TCP Chunk 398 sent to client 3.
+Recieved ACK for TCP chunk 398 from client 3.
+TCP Chunk 399 sent to client 3.
+Recieved ACK for TCP chunk 399 from client 3.
+TCP Chunk 400 sent to client 3.
+Recieved ACK for TCP chunk 400 from client 3.
+TCP Chunk 401 sent to client 3.
+Recieved ACK for TCP chunk 401 from client 3.
+TCP Chunk 402 sent to client 3.
+Recieved ACK for TCP chunk 402 from client 3.
+TCP Chunk 403 sent to client 3.
+Recieved ACK for TCP chunk 403 from client 3.
+TCP Chunk 404 sent to client 3.
+Recieved ACK for TCP chunk 404 from client 3.
+TCP Chunk 405 sent to client 3.
+Recieved ACK for TCP chunk 405 from client 3.
+TCP Chunk 406 sent to client 3.
+Recieved ACK for TCP chunk 406 from client 3.
+TCP Chunk 407 sent to client 3.
+Recieved ACK for TCP chunk 407 from client 3.
+TCP Chunk 408 sent to client 3.
+Recieved ACK for TCP chunk 408 from client 3.
+TCP Chunk 409 sent to client 3.
+Recieved ACK for TCP chunk 409 from client 3.
+TCP Chunk 410 sent to client 3.
+Recieved ACK for TCP chunk 410 from client 3.
+TCP Chunk 411 sent to client 3.
+Recieved ACK for TCP chunk 411 from client 3.
+TCP Chunk 412 sent to client 3.
+Recieved ACK for TCP chunk 412 from client 3.
+TCP Chunk 413 sent to client 3.
+Recieved ACK for TCP chunk 413 from client 3.
+TCP Chunk 414 sent to client 3.
+Recieved ACK for TCP chunk 414 from client 3.
+TCP Chunk 415 sent to client 3.
+Recieved ACK for TCP chunk 415 from client 3.
+TCP Chunk 416 sent to client 3.
+Recieved ACK for TCP chunk 416 from client 3.
+TCP Chunk 417 sent to client 3.
+Recieved ACK for TCP chunk 417 from client 3.
+TCP Chunk 418 sent to client 3.
+Recieved ACK for TCP chunk 418 from client 3.
+TCP Chunk 419 sent to client 3.
+Recieved ACK for TCP chunk 419 from client 3.
+TCP Chunk 420 sent to client 3.
+Recieved ACK for TCP chunk 420 from client 3.
+TCP Chunk 421 sent to client 3.
+Recieved ACK for TCP chunk 421 from client 3.
+TCP Chunk 422 sent to client 3.
+Recieved ACK for TCP chunk 422 from client 3.
+TCP Chunk 423 sent to client 3.
+Recieved ACK for TCP chunk 423 from client 3.
+TCP Chunk 424 sent to client 3.
+Recieved ACK for TCP chunk 424 from client 3.
+TCP Chunk 425 sent to client 3.
+Recieved ACK for TCP chunk 425 from client 3.
+TCP Chunk 426 sent to client 3.
+Recieved ACK for TCP chunk 426 from client 3.
+TCP Chunk 427 sent to client 3.
+Recieved ACK for TCP chunk 427 from client 3.
+TCP Chunk 428 sent to client 3.
+Recieved ACK for TCP chunk 428 from client 3.
+TCP Chunk 429 sent to client 3.
+Recieved ACK for TCP chunk 429 from client 3.
+TCP Chunk 430 sent to client 3.
+Recieved ACK for TCP chunk 430 from client 3.
+TCP Chunk 431 sent to client 3.
+Recieved ACK for TCP chunk 431 from client 3.
+TCP Chunk 432 sent to client 3.
+Recieved ACK for TCP chunk 432 from client 3.
+TCP Chunk 433 sent to client 3.
+Recieved ACK for TCP chunk 433 from client 3.
+TCP Chunk 434 sent to client 3.
+Recieved ACK for TCP chunk 434 from client 3.
+TCP Chunk 435 sent to client 3.
+Recieved ACK for TCP chunk 435 from client 3.
+TCP Chunk 436 sent to client 3.
+Recieved ACK for TCP chunk 436 from client 3.
+TCP Chunk 437 sent to client 3.
+Recieved ACK for TCP chunk 437 from client 3.
+TCP Chunk 438 sent to client 3.
+Recieved ACK for TCP chunk 438 from client 3.
+TCP Chunk 439 sent to client 3.
+Recieved ACK for TCP chunk 439 from client 3.
+TCP Chunk 440 sent to client 3.
+Recieved ACK for TCP chunk 440 from client 3.
+TCP Chunk 441 sent to client 3.
+Recieved ACK for TCP chunk 441 from client 3.
+TCP Chunk 442 sent to client 3.
+Recieved ACK for TCP chunk 442 from client 3.
+TCP Chunk 443 sent to client 3.
+Recieved ACK for TCP chunk 443 from client 3.
+TCP Chunk 444 sent to client 3.
+Recieved ACK for TCP chunk 444 from client 3.
+TCP Chunk 445 sent to client 3.
+Recieved ACK for TCP chunk 445 from client 3.
+TCP Chunk 446 sent to client 3.
+Recieved ACK for TCP chunk 446 from client 3.
+TCP Chunk 447 sent to client 3.
+Recieved ACK for TCP chunk 447 from client 3.
+TCP Chunk 448 sent to client 3.
+Recieved ACK for TCP chunk 448 from client 3.
+TCP Chunk 449 sent to client 3.
+Recieved ACK for TCP chunk 449 from client 3.
+TCP Chunk 450 sent to client 3.
+Recieved ACK for TCP chunk 450 from client 3.
+TCP Chunk 451 sent to client 3.
+Recieved ACK for TCP chunk 451 from client 3.
+TCP Chunk 452 sent to client 3.
+Recieved ACK for TCP chunk 452 from client 3.
+TCP Chunk 453 sent to client 3.
+Recieved ACK for TCP chunk 453 from client 3.
+TCP Chunk 454 sent to client 3.
+Recieved ACK for TCP chunk 454 from client 3.
+TCP Chunk 455 sent to client 3.
+Recieved ACK for TCP chunk 455 from client 3.
+TCP Chunk 456 sent to client 3.
+Recieved ACK for TCP chunk 456 from client 3.
+TCP Chunk 457 sent to client 3.
+Recieved ACK for TCP chunk 457 from client 3.
+TCP Chunk 458 sent to client 3.
+Recieved ACK for TCP chunk 458 from client 3.
+TCP Chunk 459 sent to client 3.
+Recieved ACK for TCP chunk 459 from client 3.
+TCP Chunk 460 sent to client 3.
+Recieved ACK for TCP chunk 460 from client 3.
+TCP Chunk 461 sent to client 3.
+Recieved ACK for TCP chunk 461 from client 3.
+TCP Chunk 462 sent to client 3.
+Recieved ACK for TCP chunk 462 from client 3.
+TCP Chunk 463 sent to client 3.
+Recieved ACK for TCP chunk 463 from client 3.
+TCP Chunk 464 sent to client 3.
+Recieved ACK for TCP chunk 464 from client 3.
+TCP Chunk 465 sent to client 3.
+Recieved ACK for TCP chunk 465 from client 3.
+TCP Chunk 466 sent to client 3.
+Recieved ACK for TCP chunk 466 from client 3.
+TCP Chunk 467 sent to client 3.
+Recieved ACK for TCP chunk 467 from client 3.
+TCP Chunk 468 sent to client 3.
+Recieved ACK for TCP chunk 468 from client 3.
+TCP Chunk 469 sent to client 3.
+Recieved ACK for TCP chunk 469 from client 3.
+TCP Chunk 470 sent to client 3.
+Recieved ACK for TCP chunk 470 from client 3.
+TCP Chunk 471 sent to client 3.
+Recieved ACK for TCP chunk 471 from client 3.
+TCP Chunk 472 sent to client 3.
+Recieved ACK for TCP chunk 472 from client 3.
+TCP Chunk 473 sent to client 3.
+Recieved ACK for TCP chunk 473 from client 3.
+TCP Chunk 474 sent to client 3.
+Recieved ACK for TCP chunk 474 from client 3.
+TCP Chunk 475 sent to client 3.
+Recieved ACK for TCP chunk 475 from client 3.
+TCP Chunk 476 sent to client 3.
+Recieved ACK for TCP chunk 476 from client 3.
+TCP Chunk 477 sent to client 3.
+Recieved ACK for TCP chunk 477 from client 3.
+TCP Chunk 478 sent to client 3.
+Recieved ACK for TCP chunk 478 from client 3.
+TCP Chunk 479 sent to client 3.
+Recieved ACK for TCP chunk 479 from client 3.
+TCP Chunk 480 sent to client 3.
+Recieved ACK for TCP chunk 480 from client 3.
+TCP Chunk 481 sent to client 3.
+Recieved ACK for TCP chunk 481 from client 3.
+TCP Chunk 482 sent to client 3.
+Recieved ACK for TCP chunk 482 from client 3.
+TCP Chunk 483 sent to client 3.
+Recieved ACK for TCP chunk 483 from client 3.
+TCP Chunk 484 sent to client 3.
+Recieved ACK for TCP chunk 484 from client 3.
+TCP Chunk 485 sent to client 3.
+Recieved ACK for TCP chunk 485 from client 3.
+TCP Chunk 486 sent to client 3.
+Recieved ACK for TCP chunk 486 from client 3.
+TCP Chunk 487 sent to client 3.
+Recieved ACK for TCP chunk 487 from client 3.
+TCP Chunk 488 sent to client 3.
+Recieved ACK for TCP chunk 488 from client 3.
+TCP Chunk 489 sent to client 3.
+Recieved ACK for TCP chunk 489 from client 3.
+TCP Chunk 490 sent to client 3.
+Recieved ACK for TCP chunk 490 from client 3.
+TCP Chunk 491 sent to client 3.
+Recieved ACK for TCP chunk 491 from client 3.
+TCP Chunk 492 sent to client 3.
+Recieved ACK for TCP chunk 492 from client 3.
+TCP Chunk 493 sent to client 3.
+Recieved ACK for TCP chunk 493 from client 3.
+TCP Chunk 494 sent to client 3.
+Recieved ACK for TCP chunk 494 from client 3.
+TCP Chunk 495 sent to client 3.
+Recieved ACK for TCP chunk 495 from client 3.
+TCP Chunk 496 sent to client 3.
+Recieved ACK for TCP chunk 496 from client 3.
+TCP Chunk 497 sent to client 3.
+Recieved ACK for TCP chunk 497 from client 3.
+TCP Chunk 498 sent to client 3.
+Recieved ACK for TCP chunk 498 from client 3.
+TCP Chunk 499 sent to client 3.
+Recieved ACK for TCP chunk 499 from client 3.
+TCP Chunk 500 sent to client 3.
+Recieved ACK for TCP chunk 500 from client 3.
+TCP Chunk 501 sent to client 3.
+Recieved ACK for TCP chunk 501 from client 3.
+TCP Chunk 502 sent to client 3.
+Recieved ACK for TCP chunk 502 from client 3.
+TCP Chunk 503 sent to client 3.
+Recieved ACK for TCP chunk 503 from client 3.
+TCP Chunk 504 sent to client 3.
+Recieved ACK for TCP chunk 504 from client 3.
+TCP Chunk 505 sent to client 3.
+Recieved ACK for TCP chunk 505 from client 3.
+TCP Chunk 506 sent to client 3.
+Recieved ACK for TCP chunk 506 from client 3.
+TCP Chunk 507 sent to client 3.
+Recieved ACK for TCP chunk 507 from client 3.
+TCP Chunk 508 sent to client 3.
+Recieved ACK for TCP chunk 508 from client 3.
+TCP Chunk 509 sent to client 3.
+Recieved ACK for TCP chunk 509 from client 3.
+TCP Chunk 510 sent to client 3.
+Recieved ACK for TCP chunk 510 from client 3.
+TCP Chunk 511 sent to client 3.
+Recieved ACK for TCP chunk 511 from client 3.
+TCP Chunk 512 sent to client 3.
+Recieved ACK for TCP chunk 512 from client 3.
+TCP Chunk 513 sent to client 3.
+Recieved ACK for TCP chunk 513 from client 3.
+TCP Chunk 514 sent to client 3.
+Recieved ACK for TCP chunk 514 from client 3.
+TCP Chunk 515 sent to client 3.
+Recieved ACK for TCP chunk 515 from client 3.
+TCP Chunk 516 sent to client 3.
+Recieved ACK for TCP chunk 516 from client 3.
+TCP Chunk 517 sent to client 3.
+Recieved ACK for TCP chunk 517 from client 3.
+TCP Chunk 518 sent to client 3.
+Recieved ACK for TCP chunk 518 from client 3.
+TCP Chunk 519 sent to client 3.
+Recieved ACK for TCP chunk 519 from client 3.
+TCP Chunk 520 sent to client 3.
+Recieved ACK for TCP chunk 520 from client 3.
+TCP Chunk 521 sent to client 3.
+Recieved ACK for TCP chunk 521 from client 3.
+TCP Chunk 522 sent to client 3.
+Recieved ACK for TCP chunk 522 from client 3.
+TCP Chunk 523 sent to client 3.
+Recieved ACK for TCP chunk 523 from client 3.
+TCP Chunk 524 sent to client 3.
+Recieved ACK for TCP chunk 524 from client 3.
+TCP Chunk 525 sent to client 3.
+Recieved ACK for TCP chunk 525 from client 3.
+TCP Chunk 526 sent to client 3.
+Recieved ACK for TCP chunk 526 from client 3.
+TCP Chunk 527 sent to client 3.
+Recieved ACK for TCP chunk 527 from client 3.
+TCP Chunk 528 sent to client 3.
+Recieved ACK for TCP chunk 528 from client 3.
+TCP Chunk 529 sent to client 3.
+Recieved ACK for TCP chunk 529 from client 3.
+TCP Chunk 530 sent to client 3.
+Recieved ACK for TCP chunk 530 from client 3.
+TCP Chunk 531 sent to client 3.
+Recieved ACK for TCP chunk 531 from client 3.
+TCP Chunk 532 sent to client 3.
+Recieved ACK for TCP chunk 532 from client 3.
+TCP Chunk 533 sent to client 3.
+Recieved ACK for TCP chunk 533 from client 3.
+TCP Chunk 534 sent to client 3.
+Recieved ACK for TCP chunk 534 from client 3.
+TCP Chunk 535 sent to client 3.
+Recieved ACK for TCP chunk 535 from client 3.
+TCP Chunk 536 sent to client 3.
+Recieved ACK for TCP chunk 536 from client 3.
+TCP Chunk 537 sent to client 3.
+Recieved ACK for TCP chunk 537 from client 3.
+TCP Chunk 538 sent to client 3.
+Recieved ACK for TCP chunk 538 from client 3.
+TCP Chunk 539 sent to client 3.
+Recieved ACK for TCP chunk 539 from client 3.
+TCP Chunk 540 sent to client 3.
+Recieved ACK for TCP chunk 540 from client 3.
+TCP Chunk 541 sent to client 3.
+Recieved ACK for TCP chunk 541 from client 3.
+TCP Chunk 542 sent to client 3.
+Recieved ACK for TCP chunk 542 from client 3.
+TCP Chunk 543 sent to client 3.
+Recieved ACK for TCP chunk 543 from client 3.
+TCP Chunk 544 sent to client 3.
+Recieved ACK for TCP chunk 544 from client 3.
+TCP Chunk 545 sent to client 3.
+Recieved ACK for TCP chunk 545 from client 3.
+TCP stream done for client 3
+Client 4 @127.0.0.1:34840 → wants 480p via UDP (UDP port 60419)
+UDP → client 4 [480p @ 1500 Kbps]: 48 chunks, 100ms delay
+UDP Chunk 1 sent to client 4.
+UDP Chunk 2 sent to client 4.
+UDP Chunk 3 sent to client 4.
+UDP Chunk 4 sent to client 4.
+UDP Chunk 5 sent to client 4.
+UDP Chunk 6 sent to client 4.
+UDP Chunk 7 sent to client 4.
+UDP Chunk 8 sent to client 4.
+UDP Chunk 9 sent to client 4.
+UDP Chunk 10 sent to client 4.
+UDP Chunk 11 sent to client 4.
+UDP Chunk 12 sent to client 4.
+UDP Chunk 13 sent to client 4.
+UDP chunk 14 dropped.
+UDP Chunk 15 sent to client 4.
+UDP Chunk 16 sent to client 4.
+UDP Chunk 17 sent to client 4.
+UDP Chunk 18 sent to client 4.
+UDP Chunk 19 sent to client 4.
+UDP Chunk 20 sent to client 4.
+UDP Chunk 21 sent to client 4.
+UDP Chunk 22 sent to client 4.
+UDP Chunk 23 sent to client 4.
+UDP Chunk 24 sent to client 4.
+UDP Chunk 25 sent to client 4.
+UDP Chunk 26 sent to client 4.
+UDP Chunk 27 sent to client 4.
+UDP Chunk 28 sent to client 4.
+UDP Chunk 29 sent to client 4.
+UDP Chunk 30 sent to client 4.
+UDP Chunk 31 sent to client 4.
+UDP Chunk 32 sent to client 4.
+UDP Chunk 33 sent to client 4.
+UDP Chunk 34 sent to client 4.
+UDP Chunk 35 sent to client 4.
+UDP Chunk 36 sent to client 4.
+UDP Chunk 37 sent to client 4.
+UDP Chunk 38 sent to client 4.
+UDP Chunk 39 sent to client 4.
+UDP Chunk 40 sent to client 4.
+UDP Chunk 41 sent to client 4.
+UDP Chunk 42 sent to client 4.
+UDP Chunk 43 sent to client 4.
+UDP Chunk 44 sent to client 4.
+UDP Chunk 45 sent to client 4.
+UDP Chunk 46 sent to client 4.
+UDP Chunk 47 sent to client 4.
+UDP Chunk 48 sent to client 4.
+UDP done for client 4 (dropped 1/48 = 2.08333%)
+Client 5 @127.0.0.1:48278 → wants 720p via UDP (UDP port 50200)
+UDP → client 5 [720p @ 4000 Kbps]: 301 chunks, 100ms delay
+UDP Chunk 1 sent to client 5.
+UDP Chunk 2 sent to client 5.
+UDP Chunk 3 sent to client 5.
+UDP Chunk 4 sent to client 5.
+UDP Chunk 5 sent to client 5.
+UDP Chunk 6 sent to client 5.
+UDP Chunk 7 sent to client 5.
+UDP Chunk 8 sent to client 5.
+UDP Chunk 9 sent to client 5.
+UDP Chunk 10 sent to client 5.
+UDP Chunk 11 sent to client 5.
+UDP Chunk 12 sent to client 5.
+UDP Chunk 13 sent to client 5.
+UDP Chunk 14 sent to client 5.
+UDP Chunk 15 sent to client 5.
+UDP Chunk 16 sent to client 5.
+UDP Chunk 17 sent to client 5.
+UDP chunk 18 dropped.
+UDP Chunk 19 sent to client 5.
+UDP Chunk 20 sent to client 5.
+UDP Chunk 21 sent to client 5.
+UDP Chunk 22 sent to client 5.
+UDP chunk 23 dropped.
+UDP chunk 24 dropped.
+UDP Chunk 25 sent to client 5.
+UDP Chunk 26 sent to client 5.
+UDP Chunk 27 sent to client 5.
+UDP Chunk 28 sent to client 5.
+UDP chunk 29 dropped.
+UDP Chunk 30 sent to client 5.
+UDP Chunk 31 sent to client 5.
+UDP Chunk 32 sent to client 5.
+UDP Chunk 33 sent to client 5.
+UDP Chunk 34 sent to client 5.
+UDP Chunk 35 sent to client 5.
+UDP Chunk 36 sent to client 5.
+UDP Chunk 37 sent to client 5.
+UDP Chunk 38 sent to client 5.
+UDP Chunk 39 sent to client 5.
+UDP Chunk 40 sent to client 5.
+UDP Chunk 41 sent to client 5.
+UDP Chunk 42 sent to client 5.
+UDP Chunk 43 sent to client 5.
+UDP Chunk 44 sent to client 5.
+UDP chunk 45 dropped.
+UDP Chunk 46 sent to client 5.
+UDP Chunk 47 sent to client 5.
+UDP Chunk 48 sent to client 5.
+UDP Chunk 49 sent to client 5.
+UDP chunk 50 dropped.
+UDP Chunk 51 sent to client 5.
+UDP Chunk 52 sent to client 5.
+UDP Chunk 53 sent to client 5.
+UDP chunk 54 dropped.
+UDP Chunk 55 sent to client 5.
+UDP Chunk 56 sent to client 5.
+UDP Chunk 57 sent to client 5.
+UDP Chunk 58 sent to client 5.
+UDP Chunk 59 sent to client 5.
+UDP chunk 60 dropped.
+UDP Chunk 61 sent to client 5.
+UDP Chunk 62 sent to client 5.
+UDP Chunk 63 sent to client 5.
+UDP Chunk 64 sent to client 5.
+UDP Chunk 65 sent to client 5.
+UDP Chunk 66 sent to client 5.
+UDP Chunk 67 sent to client 5.
+UDP Chunk 68 sent to client 5.
+UDP Chunk 69 sent to client 5.
+UDP Chunk 70 sent to client 5.
+UDP Chunk 71 sent to client 5.
+UDP Chunk 72 sent to client 5.
+UDP Chunk 73 sent to client 5.
+UDP Chunk 74 sent to client 5.
+UDP Chunk 75 sent to client 5.
+UDP Chunk 76 sent to client 5.
+UDP Chunk 77 sent to client 5.
+UDP Chunk 78 sent to client 5.
+UDP Chunk 79 sent to client 5.
+UDP Chunk 80 sent to client 5.
+UDP Chunk 81 sent to client 5.
+UDP Chunk 82 sent to client 5.
+UDP Chunk 83 sent to client 5.
+UDP Chunk 84 sent to client 5.
+UDP Chunk 85 sent to client 5.
+UDP Chunk 86 sent to client 5.
+UDP Chunk 87 sent to client 5.
+UDP Chunk 88 sent to client 5.
+UDP Chunk 89 sent to client 5.
+UDP Chunk 90 sent to client 5.
+UDP Chunk 91 sent to client 5.
+UDP Chunk 92 sent to client 5.
+UDP Chunk 93 sent to client 5.
+UDP chunk 94 dropped.
+UDP Chunk 95 sent to client 5.
+UDP Chunk 96 sent to client 5.
+UDP Chunk 97 sent to client 5.
+UDP Chunk 98 sent to client 5.
+UDP Chunk 99 sent to client 5.
+UDP Chunk 100 sent to client 5.
+UDP Chunk 101 sent to client 5.
+UDP Chunk 102 sent to client 5.
+UDP Chunk 103 sent to client 5.
+UDP Chunk 104 sent to client 5.
+UDP Chunk 105 sent to client 5.
+UDP Chunk 106 sent to client 5.
+UDP Chunk 107 sent to client 5.
+UDP Chunk 108 sent to client 5.
+UDP Chunk 109 sent to client 5.
+UDP Chunk 110 sent to client 5.
+UDP Chunk 111 sent to client 5.
+UDP Chunk 112 sent to client 5.
+UDP Chunk 113 sent to client 5.
+UDP Chunk 114 sent to client 5.
+UDP Chunk 115 sent to client 5.
+UDP Chunk 116 sent to client 5.
+UDP Chunk 117 sent to client 5.
+UDP Chunk 118 sent to client 5.
+UDP Chunk 119 sent to client 5.
+UDP Chunk 120 sent to client 5.
+UDP chunk 121 dropped.
+UDP Chunk 122 sent to client 5.
+UDP Chunk 123 sent to client 5.
+UDP Chunk 124 sent to client 5.
+UDP Chunk 125 sent to client 5.
+UDP Chunk 126 sent to client 5.
+UDP Chunk 127 sent to client 5.
+UDP Chunk 128 sent to client 5.
+UDP Chunk 129 sent to client 5.
+UDP Chunk 130 sent to client 5.
+UDP chunk 131 dropped.
+UDP Chunk 132 sent to client 5.
+UDP Chunk 133 sent to client 5.
+UDP Chunk 134 sent to client 5.
+UDP Chunk 135 sent to client 5.
+UDP Chunk 136 sent to client 5.
+UDP Chunk 137 sent to client 5.
+UDP Chunk 138 sent to client 5.
+UDP chunk 139 dropped.
+UDP Chunk 140 sent to client 5.
+UDP Chunk 141 sent to client 5.
+UDP Chunk 142 sent to client 5.
+UDP Chunk 143 sent to client 5.
+UDP Chunk 144 sent to client 5.
+UDP Chunk 145 sent to client 5.
+UDP chunk 146 dropped.
+UDP Chunk 147 sent to client 5.
+UDP Chunk 148 sent to client 5.
+UDP Chunk 149 sent to client 5.
+UDP Chunk 150 sent to client 5.
+UDP Chunk 151 sent to client 5.
+UDP Chunk 152 sent to client 5.
+UDP Chunk 153 sent to client 5.
+UDP Chunk 154 sent to client 5.
+UDP Chunk 155 sent to client 5.
+UDP Chunk 156 sent to client 5.
+UDP Chunk 157 sent to client 5.
+UDP Chunk 158 sent to client 5.
+UDP Chunk 159 sent to client 5.
+UDP Chunk 160 sent to client 5.
+UDP Chunk 161 sent to client 5.
+UDP Chunk 162 sent to client 5.
+UDP Chunk 163 sent to client 5.
+UDP Chunk 164 sent to client 5.
+UDP Chunk 165 sent to client 5.
+UDP Chunk 166 sent to client 5.
+UDP Chunk 167 sent to client 5.
+UDP Chunk 168 sent to client 5.
+UDP Chunk 169 sent to client 5.
+UDP Chunk 170 sent to client 5.
+UDP Chunk 171 sent to client 5.
+UDP Chunk 172 sent to client 5.
+UDP Chunk 173 sent to client 5.
+UDP Chunk 174 sent to client 5.
+UDP Chunk 175 sent to client 5.
+UDP Chunk 176 sent to client 5.
+UDP Chunk 177 sent to client 5.
+UDP Chunk 178 sent to client 5.
+UDP Chunk 179 sent to client 5.
+UDP Chunk 180 sent to client 5.
+UDP Chunk 181 sent to client 5.
+UDP Chunk 182 sent to client 5.
+UDP Chunk 183 sent to client 5.
+UDP Chunk 184 sent to client 5.
+UDP Chunk 185 sent to client 5.
+UDP Chunk 186 sent to client 5.
+UDP Chunk 187 sent to client 5.
+UDP Chunk 188 sent to client 5.
+UDP Chunk 189 sent to client 5.
+UDP Chunk 190 sent to client 5.
+UDP Chunk 191 sent to client 5.
+UDP Chunk 192 sent to client 5.
+UDP Chunk 193 sent to client 5.
+UDP Chunk 194 sent to client 5.
+UDP Chunk 195 sent to client 5.
+UDP chunk 196 dropped.
+UDP Chunk 197 sent to client 5.
+UDP Chunk 198 sent to client 5.
+UDP Chunk 199 sent to client 5.
+UDP chunk 200 dropped.
+UDP Chunk 201 sent to client 5.
+UDP Chunk 202 sent to client 5.
+UDP Chunk 203 sent to client 5.
+UDP Chunk 204 sent to client 5.
+UDP Chunk 205 sent to client 5.
+UDP Chunk 206 sent to client 5.
+UDP Chunk 207 sent to client 5.
+UDP Chunk 208 sent to client 5.
+UDP Chunk 209 sent to client 5.
+UDP Chunk 210 sent to client 5.
+UDP Chunk 211 sent to client 5.
+UDP Chunk 212 sent to client 5.
+UDP Chunk 213 sent to client 5.
+UDP Chunk 214 sent to client 5.
+UDP Chunk 215 sent to client 5.
+UDP Chunk 216 sent to client 5.
+UDP Chunk 217 sent to client 5.
+UDP Chunk 218 sent to client 5.
+UDP Chunk 219 sent to client 5.
+UDP Chunk 220 sent to client 5.
+UDP Chunk 221 sent to client 5.
+UDP Chunk 222 sent to client 5.
+UDP Chunk 223 sent to client 5.
+UDP Chunk 224 sent to client 5.
+UDP Chunk 225 sent to client 5.
+UDP Chunk 226 sent to client 5.
+UDP Chunk 227 sent to client 5.
+UDP chunk 228 dropped.
+UDP Chunk 229 sent to client 5.
+UDP Chunk 230 sent to client 5.
+UDP Chunk 231 sent to client 5.
+UDP Chunk 232 sent to client 5.
+UDP Chunk 233 sent to client 5.
+UDP Chunk 234 sent to client 5.
+UDP Chunk 235 sent to client 5.
+UDP Chunk 236 sent to client 5.
+UDP Chunk 237 sent to client 5.
+UDP Chunk 238 sent to client 5.
+UDP Chunk 239 sent to client 5.
+UDP Chunk 240 sent to client 5.
+UDP Chunk 241 sent to client 5.
+UDP Chunk 242 sent to client 5.
+UDP Chunk 243 sent to client 5.
+UDP Chunk 244 sent to client 5.
+UDP chunk 245 dropped.
+UDP Chunk 246 sent to client 5.
+UDP Chunk 247 sent to client 5.
+UDP chunk 248 dropped.
+UDP Chunk 249 sent to client 5.
+UDP Chunk 250 sent to client 5.
+UDP Chunk 251 sent to client 5.
+UDP Chunk 252 sent to client 5.
+UDP Chunk 253 sent to client 5.
+UDP Chunk 254 sent to client 5.
+UDP Chunk 255 sent to client 5.
+UDP Chunk 256 sent to client 5.
+UDP Chunk 257 sent to client 5.
+UDP Chunk 258 sent to client 5.
+UDP Chunk 259 sent to client 5.
+UDP Chunk 260 sent to client 5.
+UDP Chunk 261 sent to client 5.
+UDP Chunk 262 sent to client 5.
+UDP Chunk 263 sent to client 5.
+UDP Chunk 264 sent to client 5.
+UDP Chunk 265 sent to client 5.
+UDP Chunk 266 sent to client 5.
+UDP Chunk 267 sent to client 5.
+UDP Chunk 268 sent to client 5.
+UDP Chunk 269 sent to client 5.
+UDP Chunk 270 sent to client 5.
+UDP Chunk 271 sent to client 5.
+UDP Chunk 272 sent to client 5.
+UDP Chunk 273 sent to client 5.
+UDP Chunk 274 sent to client 5.
+UDP Chunk 275 sent to client 5.
+UDP Chunk 276 sent to client 5.
+UDP Chunk 277 sent to client 5.
+UDP Chunk 278 sent to client 5.
+UDP Chunk 279 sent to client 5.
+UDP Chunk 280 sent to client 5.
+UDP Chunk 281 sent to client 5.
+UDP Chunk 282 sent to client 5.
+UDP Chunk 283 sent to client 5.
+UDP Chunk 284 sent to client 5.
+UDP Chunk 285 sent to client 5.
+UDP Chunk 286 sent to client 5.
+UDP Chunk 287 sent to client 5.
+UDP Chunk 288 sent to client 5.
+UDP Chunk 289 sent to client 5.
+UDP Chunk 290 sent to client 5.
+UDP Chunk 291 sent to client 5.
+UDP Chunk 292 sent to client 5.
+UDP Chunk 293 sent to client 5.
+UDP Chunk 294 sent to client 5.
+UDP Chunk 295 sent to client 5.
+UDP Chunk 296 sent to client 5.
+UDP Chunk 297 sent to client 5.
+UDP Chunk 298 sent to client 5.
+UDP Chunk 299 sent to client 5.
+UDP Chunk 300 sent to client 5.
+UDP Chunk 301 sent to client 5.
+UDP done for client 5 (dropped 18/301 = 5.98007%)
+Client 6 @127.0.0.1:37674 → wants 1080p via UDP (UDP port 47783)
+UDP → client 6 [1080p @ 8000 Kbps]: 545 chunks, 100ms delay
+UDP Chunk 1 sent to client 6.
+UDP Chunk 2 sent to client 6.
+UDP Chunk 3 sent to client 6.
+UDP Chunk 4 sent to client 6.
+UDP Chunk 5 sent to client 6.
+UDP Chunk 6 sent to client 6.
+UDP Chunk 7 sent to client 6.
+UDP Chunk 8 sent to client 6.
+UDP Chunk 9 sent to client 6.
+UDP Chunk 10 sent to client 6.
+UDP Chunk 11 sent to client 6.
+UDP Chunk 12 sent to client 6.
+UDP Chunk 13 sent to client 6.
+UDP Chunk 14 sent to client 6.
+UDP Chunk 15 sent to client 6.
+UDP Chunk 16 sent to client 6.
+UDP Chunk 17 sent to client 6.
+UDP Chunk 18 sent to client 6.
+UDP Chunk 19 sent to client 6.
+UDP Chunk 20 sent to client 6.
+UDP Chunk 21 sent to client 6.
+UDP chunk 22 dropped.
+UDP Chunk 23 sent to client 6.
+UDP Chunk 24 sent to client 6.
+UDP Chunk 25 sent to client 6.
+UDP Chunk 26 sent to client 6.
+UDP Chunk 27 sent to client 6.
+UDP Chunk 28 sent to client 6.
+UDP Chunk 29 sent to client 6.
+UDP Chunk 30 sent to client 6.
+UDP Chunk 31 sent to client 6.
+UDP chunk 32 dropped.
+UDP Chunk 33 sent to client 6.
+UDP Chunk 34 sent to client 6.
+UDP Chunk 35 sent to client 6.
+UDP Chunk 36 sent to client 6.
+UDP Chunk 37 sent to client 6.
+UDP Chunk 38 sent to client 6.
+UDP Chunk 39 sent to client 6.
+UDP Chunk 40 sent to client 6.
+UDP Chunk 41 sent to client 6.
+UDP Chunk 42 sent to client 6.
+UDP Chunk 43 sent to client 6.
+UDP Chunk 44 sent to client 6.
+UDP Chunk 45 sent to client 6.
+UDP Chunk 46 sent to client 6.
+UDP Chunk 47 sent to client 6.
+UDP Chunk 48 sent to client 6.
+UDP Chunk 49 sent to client 6.
+UDP Chunk 50 sent to client 6.
+UDP Chunk 51 sent to client 6.
+UDP Chunk 52 sent to client 6.
+UDP Chunk 53 sent to client 6.
+UDP Chunk 54 sent to client 6.
+UDP Chunk 55 sent to client 6.
+UDP Chunk 56 sent to client 6.
+UDP Chunk 57 sent to client 6.
+UDP Chunk 58 sent to client 6.
+UDP Chunk 59 sent to client 6.
+UDP Chunk 60 sent to client 6.
+UDP Chunk 61 sent to client 6.
+UDP Chunk 62 sent to client 6.
+UDP Chunk 63 sent to client 6.
+UDP Chunk 64 sent to client 6.
+UDP Chunk 65 sent to client 6.
+UDP Chunk 66 sent to client 6.
+UDP Chunk 67 sent to client 6.
+UDP Chunk 68 sent to client 6.
+UDP Chunk 69 sent to client 6.
+UDP Chunk 70 sent to client 6.
+UDP Chunk 71 sent to client 6.
+UDP Chunk 72 sent to client 6.
+UDP Chunk 73 sent to client 6.
+UDP Chunk 74 sent to client 6.
+UDP Chunk 75 sent to client 6.
+UDP Chunk 76 sent to client 6.
+UDP Chunk 77 sent to client 6.
+UDP Chunk 78 sent to client 6.
+UDP Chunk 79 sent to client 6.
+UDP Chunk 80 sent to client 6.
+UDP Chunk 81 sent to client 6.
+UDP Chunk 82 sent to client 6.
+UDP chunk 83 dropped.
+UDP Chunk 84 sent to client 6.
+UDP Chunk 85 sent to client 6.
+UDP Chunk 86 sent to client 6.
+UDP Chunk 87 sent to client 6.
+UDP Chunk 88 sent to client 6.
+UDP Chunk 89 sent to client 6.
+UDP Chunk 90 sent to client 6.
+UDP Chunk 91 sent to client 6.
+UDP Chunk 92 sent to client 6.
+UDP Chunk 93 sent to client 6.
+UDP Chunk 94 sent to client 6.
+UDP Chunk 95 sent to client 6.
+UDP Chunk 96 sent to client 6.
+UDP chunk 97 dropped.
+UDP Chunk 98 sent to client 6.
+UDP Chunk 99 sent to client 6.
+UDP Chunk 100 sent to client 6.
+UDP Chunk 101 sent to client 6.
+UDP Chunk 102 sent to client 6.
+UDP Chunk 103 sent to client 6.
+UDP chunk 104 dropped.
+UDP Chunk 105 sent to client 6.
+UDP Chunk 106 sent to client 6.
+UDP Chunk 107 sent to client 6.
+UDP Chunk 108 sent to client 6.
+UDP Chunk 109 sent to client 6.
+UDP Chunk 110 sent to client 6.
+UDP Chunk 111 sent to client 6.
+UDP Chunk 112 sent to client 6.
+UDP Chunk 113 sent to client 6.
+UDP Chunk 114 sent to client 6.
+UDP Chunk 115 sent to client 6.
+UDP Chunk 116 sent to client 6.
+UDP Chunk 117 sent to client 6.
+UDP chunk 118 dropped.
+UDP Chunk 119 sent to client 6.
+UDP Chunk 120 sent to client 6.
+UDP Chunk 121 sent to client 6.
+UDP Chunk 122 sent to client 6.
+UDP Chunk 123 sent to client 6.
+UDP Chunk 124 sent to client 6.
+UDP Chunk 125 sent to client 6.
+UDP Chunk 126 sent to client 6.
+UDP Chunk 127 sent to client 6.
+UDP Chunk 128 sent to client 6.
+UDP Chunk 129 sent to client 6.
+UDP Chunk 130 sent to client 6.
+UDP Chunk 131 sent to client 6.
+UDP Chunk 132 sent to client 6.
+UDP Chunk 133 sent to client 6.
+UDP Chunk 134 sent to client 6.
+UDP Chunk 135 sent to client 6.
+UDP chunk 136 dropped.
+UDP Chunk 137 sent to client 6.
+UDP Chunk 138 sent to client 6.
+UDP Chunk 139 sent to client 6.
+UDP Chunk 140 sent to client 6.
+UDP Chunk 141 sent to client 6.
+UDP Chunk 142 sent to client 6.
+UDP Chunk 143 sent to client 6.
+UDP Chunk 144 sent to client 6.
+UDP Chunk 145 sent to client 6.
+UDP chunk 146 dropped.
+UDP Chunk 147 sent to client 6.
+UDP Chunk 148 sent to client 6.
+UDP chunk 149 dropped.
+UDP Chunk 150 sent to client 6.
+UDP Chunk 151 sent to client 6.
+UDP Chunk 152 sent to client 6.
+UDP Chunk 153 sent to client 6.
+UDP Chunk 154 sent to client 6.
+UDP Chunk 155 sent to client 6.
+UDP Chunk 156 sent to client 6.
+UDP Chunk 157 sent to client 6.
+UDP Chunk 158 sent to client 6.
+UDP Chunk 159 sent to client 6.
+UDP Chunk 160 sent to client 6.
+UDP Chunk 161 sent to client 6.
+UDP Chunk 162 sent to client 6.
+UDP Chunk 163 sent to client 6.
+UDP Chunk 164 sent to client 6.
+UDP Chunk 165 sent to client 6.
+UDP Chunk 166 sent to client 6.
+UDP chunk 167 dropped.
+UDP Chunk 168 sent to client 6.
+UDP Chunk 169 sent to client 6.
+UDP Chunk 170 sent to client 6.
+UDP Chunk 171 sent to client 6.
+UDP Chunk 172 sent to client 6.
+UDP Chunk 173 sent to client 6.
+UDP Chunk 174 sent to client 6.
+UDP Chunk 175 sent to client 6.
+UDP Chunk 176 sent to client 6.
+UDP Chunk 177 sent to client 6.
+UDP Chunk 178 sent to client 6.
+UDP Chunk 179 sent to client 6.
+UDP Chunk 180 sent to client 6.
+UDP Chunk 181 sent to client 6.
+UDP Chunk 182 sent to client 6.
+UDP Chunk 183 sent to client 6.
+UDP Chunk 184 sent to client 6.
+UDP Chunk 185 sent to client 6.
+UDP Chunk 186 sent to client 6.
+UDP Chunk 187 sent to client 6.
+UDP Chunk 188 sent to client 6.
+UDP Chunk 189 sent to client 6.
+UDP chunk 190 dropped.
+UDP Chunk 191 sent to client 6.
+UDP Chunk 192 sent to client 6.
+UDP Chunk 193 sent to client 6.
+UDP Chunk 194 sent to client 6.
+UDP Chunk 195 sent to client 6.
+UDP chunk 196 dropped.
+UDP Chunk 197 sent to client 6.
+UDP Chunk 198 sent to client 6.
+UDP Chunk 199 sent to client 6.
+UDP Chunk 200 sent to client 6.
+UDP Chunk 201 sent to client 6.
+UDP Chunk 202 sent to client 6.
+UDP Chunk 203 sent to client 6.
+UDP Chunk 204 sent to client 6.
+UDP Chunk 205 sent to client 6.
+UDP Chunk 206 sent to client 6.
+UDP Chunk 207 sent to client 6.
+UDP Chunk 208 sent to client 6.
+UDP Chunk 209 sent to client 6.
+UDP chunk 210 dropped.
+UDP Chunk 211 sent to client 6.
+UDP Chunk 212 sent to client 6.
+UDP Chunk 213 sent to client 6.
+UDP Chunk 214 sent to client 6.
+UDP Chunk 215 sent to client 6.
+UDP Chunk 216 sent to client 6.
+UDP Chunk 217 sent to client 6.
+UDP Chunk 218 sent to client 6.
+UDP Chunk 219 sent to client 6.
+UDP Chunk 220 sent to client 6.
+UDP Chunk 221 sent to client 6.
+UDP Chunk 222 sent to client 6.
+UDP Chunk 223 sent to client 6.
+UDP Chunk 224 sent to client 6.
+UDP Chunk 225 sent to client 6.
+UDP chunk 226 dropped.
+UDP Chunk 227 sent to client 6.
+UDP Chunk 228 sent to client 6.
+UDP Chunk 229 sent to client 6.
+UDP Chunk 230 sent to client 6.
+UDP Chunk 231 sent to client 6.
+UDP Chunk 232 sent to client 6.
+UDP Chunk 233 sent to client 6.
+UDP Chunk 234 sent to client 6.
+UDP Chunk 235 sent to client 6.
+UDP Chunk 236 sent to client 6.
+UDP Chunk 237 sent to client 6.
+UDP Chunk 238 sent to client 6.
+UDP Chunk 239 sent to client 6.
+UDP Chunk 240 sent to client 6.
+UDP Chunk 241 sent to client 6.
+UDP Chunk 242 sent to client 6.
+UDP Chunk 243 sent to client 6.
+UDP Chunk 244 sent to client 6.
+UDP Chunk 245 sent to client 6.
+UDP Chunk 246 sent to client 6.
+UDP Chunk 247 sent to client 6.
+UDP chunk 248 dropped.
+UDP Chunk 249 sent to client 6.
+UDP Chunk 250 sent to client 6.
+UDP Chunk 251 sent to client 6.
+UDP Chunk 252 sent to client 6.
+UDP Chunk 253 sent to client 6.
+UDP Chunk 254 sent to client 6.
+UDP Chunk 255 sent to client 6.
+UDP Chunk 256 sent to client 6.
+UDP Chunk 257 sent to client 6.
+UDP Chunk 258 sent to client 6.
+UDP Chunk 259 sent to client 6.
+UDP Chunk 260 sent to client 6.
+UDP Chunk 261 sent to client 6.
+UDP Chunk 262 sent to client 6.
+UDP Chunk 263 sent to client 6.
+UDP Chunk 264 sent to client 6.
+UDP Chunk 265 sent to client 6.
+UDP Chunk 266 sent to client 6.
+UDP chunk 267 dropped.
+UDP Chunk 268 sent to client 6.
+UDP Chunk 269 sent to client 6.
+UDP Chunk 270 sent to client 6.
+UDP Chunk 271 sent to client 6.
+UDP Chunk 272 sent to client 6.
+UDP Chunk 273 sent to client 6.
+UDP Chunk 274 sent to client 6.
+UDP Chunk 275 sent to client 6.
+UDP Chunk 276 sent to client 6.
+UDP Chunk 277 sent to client 6.
+UDP Chunk 278 sent to client 6.
+UDP Chunk 279 sent to client 6.
+UDP Chunk 280 sent to client 6.
+UDP Chunk 281 sent to client 6.
+UDP Chunk 282 sent to client 6.
+UDP chunk 283 dropped.
+UDP Chunk 284 sent to client 6.
+UDP Chunk 285 sent to client 6.
+UDP Chunk 286 sent to client 6.
+UDP Chunk 287 sent to client 6.
+UDP Chunk 288 sent to client 6.
+UDP Chunk 289 sent to client 6.
+UDP Chunk 290 sent to client 6.
+UDP Chunk 291 sent to client 6.
+UDP Chunk 292 sent to client 6.
+UDP chunk 293 dropped.
+UDP Chunk 294 sent to client 6.
+UDP Chunk 295 sent to client 6.
+UDP Chunk 296 sent to client 6.
+UDP Chunk 297 sent to client 6.
+UDP Chunk 298 sent to client 6.
+UDP Chunk 299 sent to client 6.
+UDP Chunk 300 sent to client 6.
+UDP Chunk 301 sent to client 6.
+UDP chunk 302 dropped.
+UDP Chunk 303 sent to client 6.
+UDP Chunk 304 sent to client 6.
+UDP Chunk 305 sent to client 6.
+UDP Chunk 306 sent to client 6.
+UDP Chunk 307 sent to client 6.
+UDP Chunk 308 sent to client 6.
+UDP Chunk 309 sent to client 6.
+UDP Chunk 310 sent to client 6.
+UDP Chunk 311 sent to client 6.
+UDP Chunk 312 sent to client 6.
+UDP Chunk 313 sent to client 6.
+UDP Chunk 314 sent to client 6.
+UDP Chunk 315 sent to client 6.
+UDP Chunk 316 sent to client 6.
+UDP chunk 317 dropped.
+UDP Chunk 318 sent to client 6.
+UDP Chunk 319 sent to client 6.
+UDP Chunk 320 sent to client 6.
+UDP Chunk 321 sent to client 6.
+UDP Chunk 322 sent to client 6.
+UDP Chunk 323 sent to client 6.
+UDP Chunk 324 sent to client 6.
+UDP Chunk 325 sent to client 6.
+UDP Chunk 326 sent to client 6.
+UDP Chunk 327 sent to client 6.
+UDP Chunk 328 sent to client 6.
+UDP Chunk 329 sent to client 6.
+UDP Chunk 330 sent to client 6.
+UDP Chunk 331 sent to client 6.
+UDP Chunk 332 sent to client 6.
+UDP Chunk 333 sent to client 6.
+UDP Chunk 334 sent to client 6.
+UDP Chunk 335 sent to client 6.
+UDP Chunk 336 sent to client 6.
+UDP Chunk 337 sent to client 6.
+UDP Chunk 338 sent to client 6.
+UDP Chunk 339 sent to client 6.
+UDP Chunk 340 sent to client 6.
+UDP Chunk 341 sent to client 6.
+UDP Chunk 342 sent to client 6.
+UDP Chunk 343 sent to client 6.
+UDP Chunk 344 sent to client 6.
+UDP Chunk 345 sent to client 6.
+UDP Chunk 346 sent to client 6.
+UDP Chunk 347 sent to client 6.
+UDP Chunk 348 sent to client 6.
+UDP Chunk 349 sent to client 6.
+UDP Chunk 350 sent to client 6.
+UDP Chunk 351 sent to client 6.
+UDP Chunk 352 sent to client 6.
+UDP Chunk 353 sent to client 6.
+UDP Chunk 354 sent to client 6.
+UDP Chunk 355 sent to client 6.
+UDP Chunk 356 sent to client 6.
+UDP Chunk 357 sent to client 6.
+UDP Chunk 358 sent to client 6.
+UDP Chunk 359 sent to client 6.
+UDP Chunk 360 sent to client 6.
+UDP Chunk 361 sent to client 6.
+UDP Chunk 362 sent to client 6.
+UDP Chunk 363 sent to client 6.
+UDP Chunk 364 sent to client 6.
+UDP Chunk 365 sent to client 6.
+UDP Chunk 366 sent to client 6.
+UDP Chunk 367 sent to client 6.
+UDP chunk 368 dropped.
+UDP Chunk 369 sent to client 6.
+UDP Chunk 370 sent to client 6.
+UDP Chunk 371 sent to client 6.
+UDP Chunk 372 sent to client 6.
+UDP Chunk 373 sent to client 6.
+UDP Chunk 374 sent to client 6.
+UDP Chunk 375 sent to client 6.
+UDP Chunk 376 sent to client 6.
+UDP Chunk 377 sent to client 6.
+UDP Chunk 378 sent to client 6.
+UDP Chunk 379 sent to client 6.
+UDP Chunk 380 sent to client 6.
+UDP Chunk 381 sent to client 6.
+UDP Chunk 382 sent to client 6.
+UDP Chunk 383 sent to client 6.
+UDP Chunk 384 sent to client 6.
+UDP Chunk 385 sent to client 6.
+UDP Chunk 386 sent to client 6.
+UDP Chunk 387 sent to client 6.
+UDP Chunk 388 sent to client 6.
+UDP Chunk 389 sent to client 6.
+UDP Chunk 390 sent to client 6.
+UDP Chunk 391 sent to client 6.
+UDP Chunk 392 sent to client 6.
+UDP Chunk 393 sent to client 6.
+UDP Chunk 394 sent to client 6.
+UDP Chunk 395 sent to client 6.
+UDP Chunk 396 sent to client 6.
+UDP Chunk 397 sent to client 6.
+UDP Chunk 398 sent to client 6.
+UDP Chunk 399 sent to client 6.
+UDP Chunk 400 sent to client 6.
+UDP Chunk 401 sent to client 6.
+UDP Chunk 402 sent to client 6.
+UDP Chunk 403 sent to client 6.
+UDP Chunk 404 sent to client 6.
+UDP Chunk 405 sent to client 6.
+UDP Chunk 406 sent to client 6.
+UDP Chunk 407 sent to client 6.
+UDP Chunk 408 sent to client 6.
+UDP Chunk 409 sent to client 6.
+UDP Chunk 410 sent to client 6.
+UDP chunk 411 dropped.
+UDP Chunk 412 sent to client 6.
+UDP Chunk 413 sent to client 6.
+UDP Chunk 414 sent to client 6.
+UDP Chunk 415 sent to client 6.
+UDP Chunk 416 sent to client 6.
+UDP chunk 417 dropped.
+UDP Chunk 418 sent to client 6.
+UDP Chunk 419 sent to client 6.
+UDP Chunk 420 sent to client 6.
+UDP Chunk 421 sent to client 6.
+UDP Chunk 422 sent to client 6.
+UDP Chunk 423 sent to client 6.
+UDP Chunk 424 sent to client 6.
+UDP Chunk 425 sent to client 6.
+UDP chunk 426 dropped.
+UDP Chunk 427 sent to client 6.
+UDP Chunk 428 sent to client 6.
+UDP Chunk 429 sent to client 6.
+UDP Chunk 430 sent to client 6.
+UDP Chunk 431 sent to client 6.
+UDP Chunk 432 sent to client 6.
+UDP Chunk 433 sent to client 6.
+UDP Chunk 434 sent to client 6.
+UDP Chunk 435 sent to client 6.
+UDP Chunk 436 sent to client 6.
+UDP Chunk 437 sent to client 6.
+UDP Chunk 438 sent to client 6.
+UDP Chunk 439 sent to client 6.
+UDP Chunk 440 sent to client 6.
+UDP Chunk 441 sent to client 6.
+UDP Chunk 442 sent to client 6.
+UDP Chunk 443 sent to client 6.
+UDP Chunk 444 sent to client 6.
+UDP Chunk 445 sent to client 6.
+UDP Chunk 446 sent to client 6.
+UDP Chunk 447 sent to client 6.
+UDP Chunk 448 sent to client 6.
+UDP Chunk 449 sent to client 6.
+UDP Chunk 450 sent to client 6.
+UDP Chunk 451 sent to client 6.
+UDP Chunk 452 sent to client 6.
+UDP Chunk 453 sent to client 6.
+UDP Chunk 454 sent to client 6.
+UDP Chunk 455 sent to client 6.
+UDP Chunk 456 sent to client 6.
+UDP Chunk 457 sent to client 6.
+UDP Chunk 458 sent to client 6.
+UDP chunk 459 dropped.
+UDP Chunk 460 sent to client 6.
+UDP Chunk 461 sent to client 6.
+UDP Chunk 462 sent to client 6.
+UDP Chunk 463 sent to client 6.
+UDP Chunk 464 sent to client 6.
+UDP Chunk 465 sent to client 6.
+UDP Chunk 466 sent to client 6.
+UDP Chunk 467 sent to client 6.
+UDP Chunk 468 sent to client 6.
+UDP Chunk 469 sent to client 6.
+UDP Chunk 470 sent to client 6.
+UDP Chunk 471 sent to client 6.
+UDP Chunk 472 sent to client 6.
+UDP Chunk 473 sent to client 6.
+UDP Chunk 474 sent to client 6.
+UDP Chunk 475 sent to client 6.
+UDP Chunk 476 sent to client 6.
+UDP chunk 477 dropped.
+UDP Chunk 478 sent to client 6.
+UDP Chunk 479 sent to client 6.
+UDP Chunk 480 sent to client 6.
+UDP Chunk 481 sent to client 6.
+UDP Chunk 482 sent to client 6.
+UDP Chunk 483 sent to client 6.
+UDP Chunk 484 sent to client 6.
+UDP Chunk 485 sent to client 6.
+UDP Chunk 486 sent to client 6.
+UDP Chunk 487 sent to client 6.
+UDP Chunk 488 sent to client 6.
+UDP Chunk 489 sent to client 6.
+UDP Chunk 490 sent to client 6.
+UDP Chunk 491 sent to client 6.
+UDP Chunk 492 sent to client 6.
+UDP Chunk 493 sent to client 6.
+UDP Chunk 494 sent to client 6.
+UDP Chunk 495 sent to client 6.
+UDP Chunk 496 sent to client 6.
+UDP Chunk 497 sent to client 6.
+UDP Chunk 498 sent to client 6.
+UDP Chunk 499 sent to client 6.
+UDP Chunk 500 sent to client 6.
+UDP Chunk 501 sent to client 6.
+UDP Chunk 502 sent to client 6.
+UDP Chunk 503 sent to client 6.
+UDP Chunk 504 sent to client 6.
+UDP Chunk 505 sent to client 6.
+UDP Chunk 506 sent to client 6.
+UDP Chunk 507 sent to client 6.
+UDP Chunk 508 sent to client 6.
+UDP Chunk 509 sent to client 6.
+UDP Chunk 510 sent to client 6.
+UDP Chunk 511 sent to client 6.
+UDP Chunk 512 sent to client 6.
+UDP Chunk 513 sent to client 6.
+UDP Chunk 514 sent to client 6.
+UDP Chunk 515 sent to client 6.
+UDP Chunk 516 sent to client 6.
+UDP Chunk 517 sent to client 6.
+UDP Chunk 518 sent to client 6.
+UDP Chunk 519 sent to client 6.
+UDP Chunk 520 sent to client 6.
+UDP Chunk 521 sent to client 6.
+UDP Chunk 522 sent to client 6.
+UDP Chunk 523 sent to client 6.
+UDP Chunk 524 sent to client 6.
+UDP chunk 525 dropped.
+UDP Chunk 526 sent to client 6.
+UDP Chunk 527 sent to client 6.
+UDP Chunk 528 sent to client 6.
+UDP Chunk 529 sent to client 6.
+UDP Chunk 530 sent to client 6.
+UDP Chunk 531 sent to client 6.
+UDP Chunk 532 sent to client 6.
+UDP Chunk 533 sent to client 6.
+UDP Chunk 534 sent to client 6.
+UDP Chunk 535 sent to client 6.
+UDP Chunk 536 sent to client 6.
+UDP Chunk 537 sent to client 6.
+UDP Chunk 538 sent to client 6.
+UDP Chunk 539 sent to client 6.
+UDP Chunk 540 sent to client 6.
+UDP Chunk 541 sent to client 6.
+UDP Chunk 542 sent to client 6.
+UDP Chunk 543 sent to client 6.
+UDP Chunk 544 sent to client 6.
+UDP Chunk 545 sent to client 6.
